@@ -5,21 +5,32 @@ import {
   StaticParamList,
 } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { Image } from 'react-native';
+import { Image, View } from 'react-native';
 import bell from '../assets/bell.png';
 import newspaper from '../assets/newspaper.png';
+import logo from '../assets/icon.png';
 import { Home } from './screens/Home';
 import { Profile } from './screens/Profile';
 import { Settings } from './screens/Settings';
-import { Updates } from './screens/Updates';
 import { NotFound } from './screens/NotFound';
+import { Updates } from './screens/Updates';
 
 const HomeTabs = createBottomTabNavigator({
   screens: {
     Home: {
       screen: Home,
       options: {
-        title: 'Feed',
+        title: 'Send',
+        headerTitle: (props) => (<View style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+        <Image
+          source={logo}
+          style={{
+            width: 50,
+            height: 50,
+          }}
+        />
+          <Text style={{fontWeight: 'bold', fontSize: 20}}>{props.children}</Text>
+        </View>),
         tabBarIcon: ({ color, size }) => (
           <Image
             source={newspaper}
@@ -32,9 +43,15 @@ const HomeTabs = createBottomTabNavigator({
         ),
       },
     },
-    Updates: {
-      screen: Updates,
-      options: {
+    Settings: {
+      screen: Settings,
+      options: ({ navigation }) => ({
+        presentation: 'modal',
+        headerRight: () => (
+          <HeaderButton onPress={navigation.goBack}>
+            <Text>Close</Text>
+          </HeaderButton>
+        ),
         tabBarIcon: ({ color, size }) => (
           <Image
             source={bell}
@@ -45,7 +62,7 @@ const HomeTabs = createBottomTabNavigator({
             }}
           />
         ),
-      },
+      }),
     },
   },
 });
@@ -71,16 +88,12 @@ const RootStack = createNativeStackNavigator({
         },
       },
     },
-    Settings: {
-      screen: Settings,
-      options: ({ navigation }) => ({
-        presentation: 'modal',
-        headerRight: () => (
-          <HeaderButton onPress={navigation.goBack}>
-            <Text>Close</Text>
-          </HeaderButton>
-        ),
-      }),
+    Reasons: {
+      screen: Updates,
+      options: {
+        title: 'Save Transaction',
+        headerShown: false,
+      },
     },
     NotFound: {
       screen: NotFound,
