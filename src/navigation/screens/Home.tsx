@@ -1,26 +1,47 @@
+import { useEffect, useRef, useState } from 'react';
 import { Text } from '@react-navigation/elements';
 import { useNavigation } from '@react-navigation/native';
-import localStorage from '@react-native-async-storage/async-storage';
 import ImmediatePhoneCall from 'react-native-immediate-phone-call';
-import { TouchableOpacity, StyleSheet, View, TextInput, Alert } from 'react-native';
-import { useEffect, useRef, useState } from 'react';
+import localStorage from '@react-native-async-storage/async-storage';
+import { TouchableOpacity, StyleSheet, View, TextInput, Alert, Platform } from 'react-native';
+import { PERMISSIONS, request, RESULTS } from 'react-native-permissions';
+import { useGlobalContext } from '../../store/global';
 
-const initialReceipient = {phone: '', amount: '', name: 'unkown'};
 export function Home() {
   const amountRef = useRef(null);
   const router = useNavigation();
+  const {receipient: initialReceipient, resetReceipient} = useGlobalContext();
+
+  useEffect(() => {
+    const requestPhonePermission = async () => {
+      try {
+        const result = await request(
+          Platform.select({
+            android: PERMISSIONS.ANDROID.CALL_PHONE,
+            ios: PERMISSIONS.IOS.CONTACTS,
+          })
+        );
+
+        if (result !== RESULTS.GRANTED) {
+          console.log('Phone call permission denied');
+        }
+      } catch (error) {
+        console.error('Error requesting phone call permission:', error);
+      }
+    };
+
+    requestPhonePermission();
+  }, []);
 
   const maxPage = 3;
   const [page, setPage] = useState(1);
   const [search, setSearch] = useState('');
   const [isNew, setIsNew] = useState(false);
-  const [receipientObj, setReceipientObj] = useState<IContact>();
   const [recentContacts, setRecentContacts] = useState<IContact[]>([]);
-  const [filteredRecentContacts, setFilteredRecentContacts] =
-    useState<IContact[]>(recentContacts);
+  const [filteredContacts, setFilteredContacts] = useState<IContact[]>(recentContacts);
 
   useEffect(() => {
-    setFilteredRecentContacts(
+    setFilteredContacts(
       recentContacts.filter(
         (contact) =>
           contact.name.toLowerCase().includes(search.toLowerCase()) ||
@@ -37,11 +58,11 @@ export function Home() {
   const [receipient, setReceipient] = useState(initialReceipient);
 
   const handleCheckBalance = async () => {
+    if (!receipient) return;
     if (receipient.phone.length < 4) return Alert.alert("Invalid Phone or MomoPay Code");
-    if (+receipient.amount < 90) return Alert.alert("Amount should atleast be 90Rwf");
+    if (!receipient.amount || +receipient.amount < 90) return Alert.alert("Amount should atleast be 90Rwf");
     ImmediatePhoneCall
       .immediatePhoneCall(`*182*${receipient.phone.length == 10 ? '1': '8'}*1*${receipient.phone}*${receipient.amount}#`);
-    setReceipient(initialReceipient);
 
     const saved = JSON.parse(
       (await localStorage.getItem('maL_transactions')) ?? '[]'
@@ -73,18 +94,27 @@ export function Home() {
       const savedContacts = JSON.parse(
         (await localStorage.getItem('maL_contacts')) ?? '[]'
       );
-      savedContacts.navigate(receipientObj);
+      savedContacts.push(receipient);
       localStorage.setItem('maL_contacts', JSON.stringify(savedContacts));
     }
+
+    resetReceipient();
+    setReceipient(initialReceipient);
 
     router.navigate('Reasons');
   }
   return (
     <View style={styles.container}>
       <View>
+        <TouchableOpacity style={styles.buttonSecondary} onPress={() => router.navigate('Profile')}>
+          <Text style={styles.buttonText2}>Send to contact</Text>
+        </TouchableOpacity>
+      </View>
+      
+      <View>
         <Text>Receipient</Text>
         <TextInput
-          autoFocus
+          autoFocus={!initialReceipient}
           style={styles.input}
           keyboardType='numeric'
           placeholder='Receipient'
@@ -97,6 +127,7 @@ export function Home() {
       <View>
         <Text>Amount</Text>
         <TextInput
+          autoFocus={initialReceipient != null}
           ref={amountRef}
           style={styles.input}
           keyboardType='numeric'
@@ -135,11 +166,25 @@ const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 10
+    borderRadius: 5
   },
   buttonText: {
     color: 'white',
     fontWeight: 'bold',
-    fontSize: 15
+    textTransform: 'uppercase'
+  },
+  buttonText2: {
+    color: 'white',
+    textTransform: 'uppercase'
+  },
+  buttonSecondary: {
+    backgroundColor: "#222",
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    height: 50,
+    borderRadius: 5,
+    width: 'auto',
+    alignItems: 'center',
+    justifyContent: 'center',
   }
 });

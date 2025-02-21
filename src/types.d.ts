@@ -8,7 +8,6 @@ declare module '*.jpg' {
   export default value;
 }
 
-/* eslint-disable @typescript-eslint/no-explicit-any */
 interface Navigator {
   contacts?: {
     select: (properties: string[], options?: { multiple: boolean }) => Promise<any>;
@@ -23,7 +22,8 @@ declare module "next-pwa" {
 interface IContact {
   name: string;
   phone: string;
-  image: string;
+  name: string;
+  amount?: string;
 }
 
 interface ITransaction {

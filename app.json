@@ -13,6 +13,7 @@
       "bundleIdentifier": "com.walletia"
     },
     "android": {
+      "bundler": "metro",
       "package": "com.walletia",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
