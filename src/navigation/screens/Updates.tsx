@@ -6,7 +6,7 @@ import { useNavigation } from '@react-navigation/native';
 
 export function Updates() {
   const navigation = useNavigation();
-  // useEffect(() => {setTimeout(() => navigation.navigate('HomeTabs'), 3000)},[])
+  useEffect(() => {setTimeout(() => navigation.navigate('HomeTabs'), 10000)},[])
   return (
     <View style={styles.container}>
       <Text style={{fontSize: 20}}>Thank you for using</Text>
@@ -20,7 +20,7 @@ export function Updates() {
         />
       </View>
 
-      <HeaderButton onPress={navigation.goBack}>
+      <HeaderButton onPress={()=>navigation.navigate('HomeTabs')}>
         <Text style={{fontSize: 15, fontWeight: 'bold', color: '#fff', borderRadius: 5, paddingHorizontal: 20, paddingVertical: 10, backgroundColor: '#6B00FE'}}>Go Back</Text>
       </HeaderButton>
     </View>

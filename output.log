@@ -1,19 +1,21 @@
-Script started on Fri Feb 21 08:48:13 2025
+Script started on Sat Feb 22 06:47:35 2025
 Command: npm run android
 
 > walletia@1.0.0 android
 > expo run:android
 
 [117D[2K› Building app...
-Configuration on demand is an incubating feature.
+Starting a Gradle Daemon (subsequent builds will be faster)
 
 
-[2A[1m<[0;1m-------------> 0% INITIALIZING [42ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [145ms][m[39D[1B[1m> Evaluating settings > :gradle-plugin > Resolve dependencies of detachedConfiguration1[m[87D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [241ms][m[39D[1B[1m> Evaluating settings[m[0K[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [343ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [445ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [541ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [644ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [744ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [843ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [941ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [1s][m[0K[36D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [1s][m[0K[35D[1B[1m> :expo-dev-launcher-gradle-plugin > Resolve dependencies of :expo-dev-launcher-gradle-plugin:classpath[m[103D[1B[2A[1m<[0;1m-------------> 3% CONFIGURING [1s][m[35D[1B[1m> root project > Resolve dependencies of :classpath[m[0K[51D[1B[1A[1m> root project > :app[m[0K[21D[1B[2A[0K
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2AConfiguration on demand is an incubating feature.
+[1B[0K
+[2A[1m<[0;1m-------------> 0% INITIALIZING [80ms][m[38D[1B> IDLE[6D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [184ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [282ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [384ms][m[39D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [482ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [584ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [682ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [784ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [882ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [982ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [1s][m[0K[36D[1B[1m> Evaluating settings > Evaluating settings[m[43D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [2s][m[36D[2B[1A[1m> Evaluating settings[m[0K[21D[1B[1A[1m> Evaluating settings > :gradle-plugin[m[38D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [3s][m[36D[2B[1A[1m> Evaluating settings > :gradle-plugin > Resolve dependencies of :gradle-plugin:classpath[m[89D[1B[1A[1m> Evaluating settings > :gradle-plugin > Resolve files of configuration ':gradle-plugin:classpath'[m[98D[1B[1A[1m> Evaluating settings > :gradle-plugin[m[0K[38D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [4s][m[36D[1B[1m> Evaluating settings > :gradle-plugin:react-native-gradle-plugin[m[65D[1B[1A[1m> Evaluating settings > :gradle-plugin:shared[m[0K[45D[1B[1A[1m> Evaluating settings[m[0K[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [5s][m[36D[1B[1m> Evaluating settings > Extracting toolchain metadata from '/Users/redjanvier/.sdkman/candidates/java/11.0.23-ms' (S[m[116D[1B[1A[1m> Evaluating settings > Extracting toolchain metadata from '/Users/redjanvier/.sdkman/candidates/java/21.0.4-ms' (SD[m[116D[1B[1A[1m> Evaluating settings[m[0K[21D[1B[1A[1m> Evaluating settings > :gradle-plugin:shared:compileKotlin[m[59D[1B[1A[1m> Evaluating settings > Resolve files of configuration 'classpath' > Resolve files of configuration 'classpath'[m[111D[1B[1A[1m> Evaluating settings[m[0K[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [6s][m[36D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [6s][m[0K[35D[1B[1m> :expo-dev-launcher-gradle-plugin[m[34D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [7s][m[35D[2B[2A[1m<[0;1m-------------> 3% CONFIGURING [7s][m[35D[1B[1m> root project[m[0K[14D[1B[1A[1m> root project > Resolve dependencies of :classpath[m[51D[1B[1A[1m> root project[m[0K[14D[1B[1A[1m> root project > :expo-dev-launcher-gradle-plugin:compileKotlin > Resolve files of configuration ':expo-dev-launcher[m[116D[1B[1A[1m> root project > Resolve files of configuration ':classpath'[m[0K[60D[1B[2A[1m<[0;1m-------------> 3% CONFIGURING [8s][m[35D[2B[1A[1m> root project > :app[m[0K[21D[1B[2A[1m<[0;1m-------------> 3% CONFIGURING [9s][m[35D[2B[2A[1m<[0;1m-------------> 3% CONFIGURING [10s][m[36D[2B[2A[0K
 [1m> Configure project :app[m
  ℹ️  [33mApplying gradle plugin[0m '[32mexpo-dev-launcher-gradle-plugin[0m' (expo-dev-launcher@5.0.29)
 [0K
 [0K
-[2A[1m<[0;1m-------------> 7% CONFIGURING [1s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;1m-------------> 7% CONFIGURING [2s][m[35D[2B[2A[1m<[0;1m-------------> 7% CONFIGURING [3s][m[35D[2B[2A[1m<[0;32;1m=[0;39;1m------------> 11% CONFIGURING [3s][m[36D[1B[1m> Resolve dependencies of :app:debugCompileClasspath > Resolve dependencies of :app:debugRuntimeClasspath > :react-n[m[116D[1B[2A[1m<[0;32;1m=[0;39;1m------------> 14% CONFIGURING [3s][m[36D[1B[1m> Resolve dependencies of :app:debugCompileClasspath > Resolve dependencies of :app:debugRuntimeClasspath > :expo[m[0K[113D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 18% CONFIGURING [3s][m[36D[1B[1m> Resolve dependencies of :app:debugCompileClasspath > Resolve dependencies of :app:debugRuntimeClasspath > :expo > [m[116D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 22% CONFIGURING [3s][m[36D[2B[2A[1m<[0;32;1m==[0;39;1m-----------> 22% CONFIGURING [4s][m[36D[2B[2A[1m<[0;32;1m===[0;39;1m----------> 29% CONFIGURING [4s][m[36D[2B[2A[1m<[0;32;1m====[0;39;1m---------> 33% CONFIGURING [4s][m[36D[2B[2A[1m<[0;32;1m=====[0;39;1m--------> 44% CONFIGURING [4s][m[36D[2B[2A[1m<[0;32;1m=======[0;39;1m------> 55% CONFIGURING [4s][m[36D[2B[2A[1m<[0;32;1m=======[0;39;1m------> 59% CONFIGURING [4s][m[36D[2B[2A[1m<[0;32;1m========[0;39;1m-----> 66% CONFIGURING [4s][m[36D[2B[2A[0K
+[2A[1m<[0;1m-------------> 3% CONFIGURING [10s][m[36D[1B[1m> root project > :app[m[21D[1B[2A[1m<[0;1m-------------> 7% CONFIGURING [10s][m[36D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;1m-------------> 7% CONFIGURING [11s][m[36D[2B[2A[1m<[0;1m-------------> 7% CONFIGURING [12s][m[36D[2B[2A[1m<[0;32;1m=[0;39;1m------------> 11% CONFIGURING [12s][m[37D[1B> IDLE[0K[6D[1B[1A[1m> Resolve dependencies of :app:debugCompileClasspath > Resolve dependencies of :app:debugRuntimeClasspath > :react-n[m[116D[1B[2A[1m<[0;32;1m=[0;39;1m------------> 14% CONFIGURING [12s][m[37D[1B[1m> Resolve dependencies of :app:debugCompileClasspath > Resolve dependencies of :app:debugRuntimeClasspath > :expo[m[0K[113D[1B[1A[1m> Resolve dependencies of :app:debugCompileClasspath > Resolve dependencies of :app:debugRuntimeClasspath > :expo > [m[116D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 18% CONFIGURING [13s][m[37D[2B[2A[1m<[0;32;1m==[0;39;1m-----------> 22% CONFIGURING [13s][m[37D[2B[2A[1m<[0;32;1m===[0;39;1m----------> 25% CONFIGURING [13s][m[37D[2B[2A[1m<[0;32;1m===[0;39;1m----------> 29% CONFIGURING [13s][m[37D[2B[2A[1m<[0;32;1m====[0;39;1m---------> 33% CONFIGURING [13s][m[37D[2B[2A[1m<[0;32;1m====[0;39;1m---------> 37% CONFIGURING [13s][m[37D[2B[2A[1m<[0;32;1m======[0;39;1m-------> 48% CONFIGURING [13s][m[37D[2B[2A[1m<[0;32;1m======[0;39;1m-------> 51% CONFIGURING [13s][m[37D[2B[2A[1m<[0;32;1m=======[0;39;1m------> 59% CONFIGURING [13s][m[37D[2B[2A[1m<[0;32;1m========[0;39;1m-----> 66% CONFIGURING [14s][m[37D[2B[2A[0K
 [1m> Configure project :expo[m[0K
 
 Using expo modules
@@ -34,96 +36,47 @@ Using expo modules
 
 [0K
 [0K
-[2A[1m<[0;32;1m==========[0;39;1m---> 77% CONFIGURING [4s][m[36D[1B[1m> Resolve dependencies of :app:debugCompileClasspath > Resolve dependencies of :app:debugRuntimeClasspath > :react-n[m[116D[1B[2A[1m<[0;32;1m==========[0;39;1m---> 81% CONFIGURING [5s][m[36D[2B[2A[1m<[0;32;1m===========[0;39;1m--> 88% CONFIGURING [5s][m[36D[2B[2A[1m<[0;32;1m============[0;39;1m-> 96% CONFIGURING [5s][m[36D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [5s][m[37D[1B[1m> Resolve dependencies of :app:debugCompileClasspath > Resolve dependencies of :app:debugRuntimeClasspath[m[0K[105D[1B[1A[1m> Resolve dependencies of :app:debugCompileClasspath[m[0K[52D[1B[1A> IDLE[0K[6D[1B[1A[1m> Resolve dependencies of :expo-modules-core:debugCompileClasspath[m[66D[1B[1A[1m> Resolve dependencies of :expo-dev-menu:debugCompileClasspath > Resolve dependencies of :expo-dev-menu:debugRuntime[m[116D[1B[1A[1m> Resolve dependencies of :expo-file-system:debugCompileClasspath > Resolve dependencies of :expo-file-system:debugR[m[116D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [6s][m[37D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [6s][m[0K[33D[1B[1m> Resolve files of configuration ':app:debugRuntimeClasspath'[m[61D[1B
-[3A[1m<[0;1m-------------> 1% EXECUTING [6s][m[0K[33D[2B[1m> :expo:generateExpoModulesPackageListTask[m[42D[1B[3A[1m<[0;1m-------------> 2% EXECUTING [6s][m[33D[2B[1m> :expo-constants:createExpoConfig[m[0K[34D[1B[3A[1m<[0;32;1m=[0;39;1m------------> 13% EXECUTING [6s][m[34D[1B[1m> :expo-contacts:packageDebugResources[m[0K[38D[1B> IDLE[0K[6D[1B[3A[1m<[0;32;1m===[0;39;1m----------> 23% EXECUTING [6s][m[34D[1B[1m> :expo-contacts:processDebugManifest[m[0K[37D[2B[3A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [6s][m[34D[1B[1m> :app:processDebugMainManifest[m[0K[31D[2B[3A[0K
-[1m> Task :app:processDebugMainManifest[m
-/Users/redjanvier/Desktop/workspace/personal/walletia/android/app/src/debug/AndroidManifest.xml:6:5-162 Warning:
-        application@android:usesCleartextTraffic was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
-/Users/redjanvier/Desktop/workspace/personal/walletia/android/app/src/debug/AndroidManifest.xml Warning:
-        provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+[2A[1m<[0;32;1m==========[0;39;1m---> 77% CONFIGURING [14s][m[37D[1B[1m> Resolve dependencies of :app:debugCompileClasspath > Resolve dependencies of :app:debugRuntimeClasspath > :react-n[m[116D[1B[2A[1m<[0;32;1m==========[0;39;1m---> 81% CONFIGURING [14s][m[37D[2B[2A[1m<[0;32;1m===========[0;39;1m--> 88% CONFIGURING [14s][m[37D[2B[2A[1m<[0;32;1m============[0;39;1m-> 92% CONFIGURING [15s][m[37D[2B[2A[1m<[0;32;1m============[0;39;1m-> 96% CONFIGURING [15s][m[37D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [15s][m[38D[1B[1m> Resolve dependencies of :app:debugCompileClasspath > Resolve dependencies of :app:debugRuntimeClasspath[m[0K[105D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [16s][m[38D[2B[1A[1m> Resolve dependencies of :expo-contacts:kotlinCompilerClasspath[m[64D[1B[1A[1m> Resolve dependencies of :expo-dev-menu-interface:debugCompileClasspath[m[72D[1B[1A[1m> Resolve dependencies of :expo-keep-awake:debugCompileClasspath > Resolve dependencies of :expo-keep-awake:debugRun[m[116D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [16s][m[0K[34D[1B[1m> Resolve files of configuration ':app:debugRuntimeClasspath'[m[61D[1B[1A[1m> :app:checkKotlinGradlePluginConfigurationErrors[m[0K[49D[1B[2A[1m<[0;1m-------------> 2% EXECUTING [17s][m[34D[1B[1m> :expo-constants:createExpoConfig[m[0K[34D[1B[2A[1m<[0;32;1m=[0;39;1m------------> 7% EXECUTING [17s][m[34D[1B[1m> :expo-updates-interface:writeDebugAarMetadata[m[47D[1B[2A[1m<[0;32;1m=[0;39;1m------------> 11% EXECUTING [17s][m[35D[1B[1m> :app:checkDebugAarMetadata > Resolve files of configuration ':app:debugRuntimeClasspath'[m[90D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 17% EXECUTING [17s][m[35D[1B[1m> :expo-modules-core:generateDebugResValues[m[0K[43D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 21% EXECUTING [17s][m[35D[1B[1m> :app:mergeDebugResources[m[0K[26D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [17s][m[35D[1B[1m> :app:processDebugMainManifest > Resolve files of configuration ':app:debugRuntimeClasspath'[m[93D[1B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [17s][m[35D[1B[1m> :react-native-gesture-handler:compileDebugLibraryResources[m[0K[60D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 38% EXECUTING [17s][m[35D[1B[1m> :expo-modules-core:compileDebugKotlin[m[0K[39D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 38% EXECUTING [18s][m[35D[2B[2A[1m<[0;32;1m=====[0;39;1m--------> 41% EXECUTING [18s][m[35D[1B[1m> :expo-dev-client:dataBindingMergeDependencyArtifactsDebug > Resolve files of configuration ':expo-dev-client:debug[m[116D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 45% EXECUTING [18s][m[35D[1B[1m> :expo-dev-menu:compileDebugKotlin[m[0K[35D[1B[2A[1m<[0;32;1m======[0;39;1m-------> 47% EXECUTING [18s][m[35D[1B[1m> :expo-file-system:compileDebugKotlin > Resolve files of configuration ':expo-file-system:detachedConfiguration6' >[m[116D[1B[2A[1m<[0;32;1m======[0;39;1m-------> 50% EXECUTING [18s][m[35D[1B[1m> :expo:compileDebugKotlin > Resolve files of configuration ':expo:detachedConfiguration6' > Resolve files of config[m[116D[1B[2A[1m<[0;32;1m=======[0;39;1m------> 53% EXECUTING [18s][m[35D[1B[1m> :react-native-permissions:compileDebugKotlin > Resolve files of configuration ':react-native-permissions:detachedC[m[116D[1B[2A[1m<[0;32;1m=======[0;39;1m------> 59% EXECUTING [18s][m[35D[1B[1m> :expo-dev-client:packageDebugAssets[m[0K[37D[1B
+
+
+
+
+
+
+[9A[1m<[0;32;1m==========[0;39;1m---> 82% EXECUTING [18s][m[35D[1B[1m> :app:transformDebugClassesWithAsm[m[0K[35D[1B[1m> Transforming classes.jar (project :expo-asset) with DexingOutputSplitTransform[m[80D[1B[1m> Transforming classes.jar (project :expo-constants) with DexingOutputSplitTransform[m[84D[1B[1m> Transforming classes.jar (project :expo-contacts) with DexingOutputSplitTransform[m[83D[1B[1m> Transforming classes.jar (project :expo-dev-client) with DexingOutputSplitTransform[m[85D[1B[1m> Transforming classes.jar (project :expo-dev-launcher) with DexingOutputSplitTransform[m[87D[1B[1m> Transforming classes.jar (project :expo-dev-menu) with DexingOutputSplitTransform[m[83D[1B[1m> Transforming classes.jar (project :expo-file-system) with DexingOutputSplitTransform[m[86D[1B[9A[1m<[0;32;1m===========[0;39;1m--> 84% EXECUTING [18s][m[35D[1B[1m> :app:mergeDebugGlobalSynthetics > Resolve files of configuration ':app:debugRuntimeClasspath'[m[95D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B[9A[1m<[0;32;1m===========[0;39;1m--> 88% EXECUTING [18s][m[35D[1B[1m> :app:mergeExtDexDebug[m[0K[23D[8B[9A[1m<[0;32;1m===========[0;39;1m--> 88% EXECUTING [19s][m[35D[1B[1m> :app:configureCMakeDebug[arm64-v8a][m[37D[8B[8A[1m> :app:buildCMakeDebug[arm64-v8a][m[0K[33D[8B[9A[1m<[0;32;1m===========[0;39;1m--> 91% EXECUTING [19s][m[35D[1B[1m> :expo-dev-menu:mergeDebugNativeLibs[m[37D[8B[9A[1m<[0;32;1m============[0;39;1m-> 96% EXECUTING [19s][m[35D[1B[1m> :react-native-gesture-handler:configureCMakeDebug[arm64-v8a] > Resolve files of configuration ':react-native-gestu[m[116D[8B[9A[1m<[0;32;1m============[0;39;1m-> 98% EXECUTING [19s][m[35D[1B[1m> :app:mergeDebugNativeLibs > Resolve files of configuration ':app:debugRuntimeClasspath'[m[0K[89D[8B[9A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 21s[0K
+586 actionable tasks: 36 executed, 550 up-to-date
+[6B[0K
 [0K
 [0K
-[0K
-[3A[1m<[0;32;1m===[0;39;1m----------> 29% EXECUTING [6s][m[34D[1B[1m> :app:processDebugManifestForPackage[m[37D[1B[1m> :expo-contacts:generateDebugRFile[m[35D[1B[3A[1m<[0;32;1m====[0;39;1m---------> 38% EXECUTING [7s][m[34D[2B[1m> :expo-modules-core:generateDebugBuildConfig[m[45D[1B[3A[1m<[0;32;1m=====[0;39;1m--------> 40% EXECUTING [7s][m[34D[2B[1m> :expo-contacts:generateDebugBuildConfig > Packing build cache entry[m[69D[1B[1A[1m> :expo-contacts:compileDebugKotlin[m[0K[35D[1B
-[4A[1m<[0;32;1m=====[0;39;1m--------> 45% EXECUTING [7s][m[0K[34D[3B[1m> :expo-dev-launcher:compileDebugKotlin[m[39D[1B[4A[1m<[0;32;1m======[0;39;1m-------> 51% EXECUTING [7s][m[34D[3B[1m> :react-native-gesture-handler:compileDebugKotlin[m[50D[1B[4A[1m<[0;32;1m=======[0;39;1m------> 58% EXECUTING [7s][m[34D[1B[1m> :app:processDebugResources[m[0K[28D[2B> IDLE[0K[6D[1B[4A[1m<[0;32;1m==========[0;39;1m---> 83% EXECUTING [7s][m[34D[3B[1m> :expo-json-utils:processDebugJavaRes[m[38D[1B[4A[1m<[0;32;1m===========[0;39;1m--> 85% EXECUTING [7s][m[34D[3B[1m> :app:buildCMakeDebug[arm64-v8a][m[0K[33D[1B[4A[1m<[0;32;1m===========[0;39;1m--> 85% EXECUTING [8s][m[34D[4B[4A[1m<[0;32;1m============[0;39;1m-> 92% EXECUTING [8s][m[34D[3B[1m> :react-native-edge-to-edge:mergeDebugJniLibFolders[m[52D[1B[4A[1m<[0;32;1m============[0;39;1m-> 96% EXECUTING [8s][m[34D[3B> IDLE[0K[6D[1B[3A[1m> :app:processDebugResources > Packing build cache entry[m[56D[3B[3A> IDLE[0K[6D[3B[4A[1m<[0;32;1m============[0;39;1m-> 96% EXECUTING [9s][m[34D[4B[4A[1m<[0;32;1m============[0;39;1m-> 96% EXECUTING [10s][m[35D[4B[4A[1m<[0;32;1m============[0;39;1m-> 96% EXECUTING [11s][m[35D[4B[4A[1m<[0;32;1m============[0;39;1m-> 96% EXECUTING [12s][m[35D[4B[4A[1m<[0;32;1m============[0;39;1m-> 96% EXECUTING [13s][m[35D[4B[4A[0K
-[1m> Task :expo-contacts:compileDebugKotlin[m
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/Contact.kt:125:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/Contact.kt:125:26 'CONTENT_ITEM_TYPE: String' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/Contact.kt:319:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/Contact.kt:319:26 'CONTENT_ITEM_TYPE: String' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/ContactsModule.kt:407:22 Unchecked cast: Any to Map<String, Any>
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/ContactsModule.kt:533:38 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/ContactsModule.kt:534:38 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/ContactsModule.kt:535:38 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/ContactsModule.kt:535:41 'PROTOCOL: String' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/ContactsModule.kt:536:38 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/ContactsModule.kt:538:41 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/ContactsModule.kt:538:44 'CONTENT_ITEM_TYPE: String' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:8:54 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:8:57 'CONTENT_ITEM_TYPE: String' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:14:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:14:26 'PROTOCOL_AIM: Int' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:15:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:15:26 'PROTOCOL_GOOGLE_TALK: Int' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:16:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:16:26 'PROTOCOL_ICQ: Int' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:17:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:17:26 'PROTOCOL_JABBER: Int' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:18:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:18:26 'PROTOCOL_MSN: Int' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:19:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:19:26 'PROTOCOL_NETMEETING: Int' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:20:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:20:26 'PROTOCOL_QQ: Int' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:21:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:21:26 'PROTOCOL_SKYPE: Int' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:22:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:22:26 'PROTOCOL_YAHOO: Int' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:23:23 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:23:26 'PROTOCOL_CUSTOM: Int' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:30:106 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:30:109 'PROTOCOL: String' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:36:34 'Im' is deprecated. Deprecated in Java
-w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/expo-contacts/android/src/main/java/expo/modules/contacts/models/ImAddressModel.kt:36:37 'PROTOCOL: String' is deprecated. Deprecated in Java
-[0K
-[0K
-[0K
-[0K
-[4A[1m<[0;32;1m============[0;39;1m-> 96% EXECUTING [13s][m[35D[1B> IDLE[6D[1B[1m> :expo-contacts:compileDebugKotlin > Packing build cache entry[m[63D[1B> IDLE[6D[1B[2A[1m> :expo-contacts:compileDebugJavaWithJavac[m[0K[42D[2B[4A[1m<[0;32;1m============[0;39;1m-> 96% EXECUTING [14s][m[35D[4B[3A[1m> :expo:compileDebugKotlin > Resolve files of configuration ':expo:detachedConfiguration6' > ClasspathEntrySnapshotT[m[116D[1B[1m> Transforming classes.jar (project :expo-contacts) with AsmClassesTransform > AsmClassesTransform classes.jar[m[110D[2B[3A[1m> :expo:compileDebugKotlin > Resolve files of configuration ':expo:detachedConfiguration6' > Packing build cache ent[m[116D[1B[1m> Transforming classes.jar (project :expo-contacts) with DexingNoClasspathTransform > DexingNoClasspathTransform cla[m[116D[2B[3A[1m> :expo:compileDebugKotlin[m[0K[26D[3B[3A[1m> :expo:compileDebugKotlin > Packing build cache entry[m[54D[3B[4A[1m<[0;32;1m============[0;39;1m-> 97% EXECUTING [14s][m[35D[1B[1m> :expo:compileDebugJavaWithJavac[m[0K[33D[3B
-[5A[1m<[0;32;1m============[0;39;1m-> 97% EXECUTING [15s][m[35D[1B[1m> :app:compileDebugKotlin > Resolve files of configuration ':app:detachedConfiguration6' > ClasspathEntrySnapshotTra[m[116D[2B[1m> Transforming classes.jar (project :expo) with AsmClassesTransform > AsmClassesTransform classes.jar[m[101D[1B[1m> :app:compileDebugKotlin > Resolve files of configuration ':app:detachedConfiguration6' > ClasspathEntrySnapshotTra[m[116D[1B[4A> IDLE[0K[6D[2B[1m> Transforming classes.jar (project :expo) with DexingNoClasspathTransform > DexingNoClasspathTransform classes.jar[m[115D[2B[1A[1m> :app:compileDebugKotlin[m[0K[25D[1B[1A[1m> :app:compileDebugJavaWithJavac[m[32D[1B[5A[1m<[0;32;1m============[0;39;1m-> 98% EXECUTING [15s][m[35D[1B[1m> :app:mergeDebugJavaResource[m[29D[3B[1m> :app:transformDebugClassesWithAsm > Packing build cache entry[m[63D[1B[1A[1m> :app:dexBuilderDebug[m[0K[22D[1B[5A[1m<[0;32;1m============[0;39;1m-> 98% EXECUTING [16s][m[35D[5B[2A> IDLE[0K[6D[1B[1m> :app:mergeProjectDexDebug[m[27D[1B[5A[1m<[0;32;1m============[0;39;1m-> 99% EXECUTING [16s][m[35D[2B[1m> :app:mergeLibDexDebug[m[0K[23D[1B[1m> :app:mergeDebugGlobalSynthetics > Resolve files of configuration ':app:debugRuntimeClasspath' > Resolve files of c[m[116D[2B[2A> IDLE[0K[6D[2B[1A[1m> :app:mergeProjectDexDebug > Packing build cache entry[m[55D[1B[4A> IDLE[0K[6D[3B> IDLE[0K[6D[1B[5A[1m<[0;32;1m============[0;39;1m-> 99% EXECUTING [17s][m[35D[5B[3A[1m> :app:mergeLibDexDebug > Packing build cache entry[m[51D[3B[3A[1m> :app:packageDebug[m[0K[19D[3B[5A[0K
-[32;1mBUILD SUCCESSFUL[0;39m in 18s
-586 actionable tasks: 67 executed, 6 from cache, 513 up-to-date
-[2B[0K
-[0K
-[0K
-[5A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B[5A[2K[1B[2K[1B[2K[1B[2K[1B[2K[4A[0m[?12l[?25h  [38;5;113;1mnativewind [0minput: /Users/redjanvier/Desktop/workspace/personal/walletia/src/assets/global.css [38;5;113m+0ms[0m
-  [38;5;113;1mnativewind [0mimportant: undefined [38;5;113m+41ms[0m
+[9A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [19s][m[36D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B[9A[1m<[0;1m-------------> 0% WAITING[m[0K[26D[9B[9A[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[8A[0m[?12l[?25h  [38;5;113;1mnativewind [0minput: /Users/redjanvier/Desktop/workspace/personal/walletia/src/assets/global.css [38;5;113m+0ms[0m
+  [38;5;113;1mnativewind [0mimportant: undefined [38;5;113m+48ms[0m
   [38;5;113;1mnativewind [0mchecking TypeScript setup [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0mwithCssInterop [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0moutputDirectory /Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/react-native-css-interop/.cache [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0misRadonIDE: false [38;5;113m+0ms[0m
 [117D[2K[2mStarting Metro Bundler[22m
-  [38;5;113;1mnativewind [0menhanceMiddleware.setup [38;5;113m+165ms[0m
+  [38;5;113;1mnativewind [0menhanceMiddleware.setup [38;5;113m+155ms[0m
 [117D[2K▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 █ ▄▄▄▄▄ █▀▀▀ ▄▀█ ▄ ▀▄▄ ▄ ██ ▄▄▄▄▄ █
 █ █   █ █▄▀█▄ ███ ▄▀█▄█▀  █ █   █ █
 █ █▄▄▄█ █ ▄▀▄▄█▄ ▀▄▄▀▀▀▀▄▀█ █▄▄▄█ █
 █▄▄▄▄▄▄▄█ █ ▀▄█▄▀ ▀▄▀▄▀▄█ █▄▄▄▄▄▄▄█
-█▄▄█▄█▀▄▄▀▀█▄█ ▀██▀▀█ ▄██ ▀ ▄▄█▄▄▀█
-█▀ ▀█▀ ▄ █▀▀█▄ ▄█▀██ █ ▄█ █ ▄  ██▄█
-█▀▄█  █▄ ██▄▄█▄ ▀▄ ▀▀▀ █▄   ▀▀▀██▀█
-██▄▀▀█▀▄▀  █ █ ▄█▄ ██ ▀█ ▀▀▄▄▀█▄▀██
-█▄▄███ ▄▄▀▀▀█ █▄█▄▄▀█▀▄█▀ █▄▀▄▀▀▄▄█
-█▄▄ ▄█▀▄▄  ▄███▄▀█▀▄▀▀▀██ █▄▀██▄▄▄█
-██  █ ▀▄▄▄▄▀▄█▄██▄▀▄▄█ █▄▀ ▀ █▄▀█ █
-█▄ ▄▄▀▀▄▄█▀▄█▀▀▀█▀█▀ ▄ ▀█▀██ █▀▄█ █
-█▄█▄███▄▄ ▀ █▄▄ ▀▄  ▀▀▄▀▀ ▄▄▄ ██▄ █
-█ ▄▄▄▄▄ █▄█▄ █▀▀█▄▀ █▀▀██ █▄█ █▄ ██
-█ █   █ █▀▀█ ██ █▄███▄▄▄█▄     █▀▀█
-█ █▄▄▄█ █▀ ▄█ ▄█▀█▀ █▀▀▄  ▀▀▄ █▄▄▄█
-█▄▄▄▄▄▄▄█▄█▄▄█▄██▄█▄██▄██▄▄███▄█▄██
+█  ▀ ▀▀▄▄▀▀█▄█ ▀██▀▀█ ▄██ ▀ ▄▄█▄▄▀█
+█▀▀▀   ▄▀▄▀▀█▄ ▄█▀██ █ ▄█ █ ▄  ██▄█
+█▄██   ▄▄▄▀▄▄█▄ ▀▄ ▀▀▀ █▄   ▀▀▀██▀█
+█▄▄  █▀▄ ▀█▀ █ ▄█▄ ██ ▀█ ▀▀▄▄▀█▄▀██
+██ █▀▄ ▄▄█ ██ █▄█▄▄▀█▀▄█▀ █▄▀▄▀▀▄▄█
+█ ▄▄▀█▀▄███ ███▄▀█▀▄▀▀▀██ █▄▀██▄▄▄█
+██ █  ▀▄ █▄ ▄█▄██▄▀▄▄█ █▄▀ ▀ █▄▀█ █
+█▄ █ █▀▄█▀ ▄█▀▀▀█▀█▀ ▄ ▀█▀██ █▀▄█ █
+█▄█▄▄█▄▄▄▀▀ █▄▄ ▀▄  ▀▀▄▀▀ ▄▄▄ ██▄ █
+█ ▄▄▄▄▄ █▄▀▀▄ ▀▀█▄▀ █▀▀██ █▄█ █▄ ██
+█ █   █ █▀ ▀▀██ █▄███▄▄▄█▄     █▀▀█
+█ █▄▄▄█ █▀█ █▀▄█▀█▀ █▀▀▄  ▀▀▄ █▄▄▄█
+█▄▄▄▄▄▄▄█▄▄▄▄█▄██▄█▄██▄██▄▄███▄█▄██
 
-[117D[2K› Metro waiting on [4mexp+walletia://expo-development-client/?url=http%3A%2F%2F192.168.1.69%3A8081[24m
+[117D[2K› Metro waiting on [4mexp+walletia://expo-development-client/?url=http%3A%2F%2F192.168.1.76%3A8081[24m
 [117D[2K› Scan the QR code above to open the project in a development build. [2m]8;;https://expo.fyi/startLearn more]8;;[22m
 [117D[2K
 [117D[2K› Web is waiting on [4mhttp://localhost:8081[24m
@@ -144,161 +97,103 @@ w: file:///Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/exp
 [117D[2K› Press [1m?[22m [2m│[22m show all commands
 [117D[2K
 [117D[2K[90m› Installing /Users/redjanvier/Desktop/workspace/personal/walletia/android/app/build/outputs/apk/debug/app-debug.apk[39m
-[117D[2K› Opening [4mexp+walletia://expo-development-client/?url=http%3A%2F%2F192.168.1.69%3A8081[24m on [1mPixel_3a_API_34_extension_level_7_arm64-v8a[22m
+[117D[2K› Opening [4mexp+walletia://expo-development-client/?url=http%3A%2F%2F192.168.1.76%3A8081[24m on [1mPixel_3a_API_34_extension_level_7_arm64-v8a[22m
 [117D[2K
 › Logs for your project will appear below.[2m Press Ctrl+C to exit.[22m
 [117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m  [38;5;113;1mnativewind [0mgetTransformOptions.dev true [38;5;113m+6s[0m
   [38;5;113;1mnativewind [0mgetTransformOptions.platform android [38;5;113m+0ms[0m
-  [38;5;113;1mnativewind [0mgetTransformOptions.virtualModulesPossible true [38;5;113m+0ms[0m
+  [38;5;113;1mnativewind [0mgetTransformOptions.virtualModulesPossible true [38;5;113m+1ms[0m
   [38;5;113;1mnativewind [0mvirtualModules /Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/react-native-css-interop/.cache/android.js [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0mvirtualModules.isDev true [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0mvirtualModules.size 0 [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0mvirtualModules.fastRefresh enabled [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0mgetCSSForPlatform: android [38;5;113m+6s[0m
   [38;5;113;1mnativewind [0mStart development Tailwind CLI [38;5;113m+0ms[0m
-  [38;5;113;1mnativewind [0mgetTransformOptions.writeToFileSystem false [38;5;113m+2ms[0m
-  [38;5;113;1mnativewind [0mresolveRequest.input /Users/redjanvier/Desktop/workspace/personal/walletia/src/assets/global.css [38;5;113m+6ms[0m
+  [38;5;113;1mnativewind [0mgetTransformOptions.writeToFileSystem false [38;5;113m+1ms[0m
+  [38;5;113;1mnativewind [0mresolveRequest.input /Users/redjanvier/Desktop/workspace/personal/walletia/src/assets/global.css [38;5;113m+8ms[0m
   [38;5;113;1mnativewind [0mresolveRequest.resolvedTo: /Users/redjanvier/Desktop/workspace/personal/walletia/node_modules/react-native-css-interop/.cache/android.js [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0mresolveRequest.development: true [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0mresolveRequest.platform: android [38;5;113m+0ms[0m
-[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓[49m[39m[47m[37m░░░░░░░░░░░░░░░[39m[49m[1m 12.1% [22m[2m( 62/178)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓[49m[39m[47m[37m░░░░░░░░░░░░░[39m[49m[1m 20.1% [22m[2m(201/448)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░░[39m[49m[1m 30.9% [22m[2m(337/606)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░[39m[49m[1m 49.3% [22m[2m(573/816)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░[39m[49m[1m 68.7% [22m[2m(735/887)[22m  [38;5;113;1mnativewind [0mFinished initial development Tailwind CLI [38;5;113m+529ms[0m
-  [38;5;113;1mnativewind [0mvirtualStyles.initial android [38;5;113m+522ms[0m
-  [38;5;113;1mnativewind [0mStart stringify [38;5;113m+19ms[0m
+[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  4.2% [22m[2m( 26/127)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓[49m[39m[47m[37m░░░░░░░░░░░░░░[39m[49m[1m 17.7% [22m[2m(125/297)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓[49m[39m[47m[37m░░░░░░░░░░░░[39m[49m[1m 26.6% [22m[2m(246/477)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░░░░[39m[49m[1m 48.6% [22m[2m(463/664)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░░░[39m[49m[1m 67.1% [22m[2m(712/869)[22m
+warn - No utility classes were detected in your source files. If this is unexpected, double-check the `content` option in your Tailwind CSS configuration.
+warn - https://tailwindcss.com/docs/content-configuration
+
+  [38;5;113;1mnativewind [0mFinished initial development Tailwind CLI [38;5;113m+563ms[0m
+  [38;5;113;1mnativewind [0mvirtualStyles.initial android [38;5;113m+554ms[0m
+  [38;5;113;1mnativewind [0mStart stringify [38;5;113m+18ms[0m
   [38;5;113;1mnativewind [0mOutput size: 80 bytes [38;5;113m+0ms[0m
-[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░[39m[49m[1m 83.7% [22m[2m( 925/1011)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░[39m[49m[1m 87.7% [22m[2m(1074/1147)[22m[117D[2K[32m[1mAndroid[22m Bundled [39m[2m841ms[22m[0m[2m index.tsx (1147 modules)[22m[0m
-[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░[39m[49m[1m 87.7% [22m[2m(1074/1147)[22m[117D[2K[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m Bridgeless mode is enabled
+[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░░[39m[49m[1m 78.3% [22m[2m(875/989)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░░[39m[49m[1m 86.9% [22m[2m( 992/1064)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░[39m[49m[1m 89.3% [22m[2m(1016/1075)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░░[39m[49m[1m 89.9% [22m[2m(1040/1097)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 99.3% [22m[2m(1194/1198)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 99.7% [22m[2m(1196/1198)[22m[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 99.8% [22m[2m(1197/1198)[22m[117D[2K[32m[1mAndroid[22m Bundled [39m[2m1465ms[22m[0m[2m index.tsx (1198 modules)[22m[0m
+[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [32m[42m▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓[49m[39m[47m[37m░[39m[49m[1m 99.8% [22m[2m(1197/1198)[22m[117D[2K[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m Bridgeless mode is enabled
 [117D[2K[7m[37m[1m INFO [22m[39m[27m 
 [7m [1m💡 JavaScript logs will be removed from Metro in React Native 0.77![22m Please use React Native DevTools as your default tool. Tip: Type [1mj[22m in the terminal to open (requires Google Chrome or Microsoft Edge).[27m
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: ReferenceError: Property 'FlatList' doesn't exist
+[117D[2K[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/redjanvier/Desktop/workspace/personal/walletia/src/navigation/screens/Reasons.tsx: Identifier 'navigation' has already been declared. (36:10)
 
-This error is located at:
-    in Profile (created by Memo(Screen))
-    in Memo(Screen)
-    in StaticContainer
-    in EnsureSingleNavigator (created by SceneView)
-    in SceneView (created by NativeStackNavigator)
-    in RNSScreenContentWrapper (created by ScreenContentWrapper)
-    in ScreenContentWrapper (created by DebugContainer)
-    in DebugContainer
-    in RNSScreen (created by Animated(Anonymous))
-    in Animated(Anonymous)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze
-    in InnerScreen (created by Screen)
-    in Screen
-    in ScreenStackItem (created by SceneView)
-    in SceneView (created by NativeStackView)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze (created by ScreenStack)
-    in RNSScreenStack (created by ScreenStack)
-    in Unknown (created by ScreenStack)
-    in ScreenStack (created by NativeStackView)
-    in RNCSafeAreaProvider (created by SafeAreaProvider)
-    in SafeAreaProvider (created by SafeAreaProviderCompat)
-    in SafeAreaProviderCompat (created by NativeStackView)
-    in NativeStackView (created by NativeStackNavigator)
-    in PreventRemoveProvider (created by NavigationContent)
-    in NavigationContent
-    in Unknown (created by NativeStackNavigator)
-    in NativeStackNavigator (created by RootNavigator)
-    in RootNavigator
-    in ThemeProvider
-    in EnsureSingleNavigator
-    in BaseNavigationContainer
-    in NavigationContainerInner
-    in Navigation (created by App)
-    in GlobalProvider (created by App)
-    in App (created by withDevTools(App))
-    in withDevTools(App)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by AppContainer)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by AppContainer)
-    in AppContainer
-    in main(RootComponent)
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: ReferenceError: Property 'FlatList' doesn't exist
+[0m [90m 34 |[39m     [36mconst[39m [search[33m,[39m setSearch] [33m=[39m useState([32m""[39m)[33m;[39m
+ [90m 35 |[39m     [36mconst[39m {setReceipient} [33m=[39m useGlobalContext()[33m;[39m
+[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m navigation [33m=[39m useNavigation()[33m;[39m
+ [90m    |[39m           [31m[1m^[22m[39m
+ [90m 37 |[39m   
+ [90m 38 |[39m     useEffect(() [33m=>[39m {
+ [90m 39 |[39m       [36mconst[39m loadContacts [33m=[39m [36masync[39m () [33m=>[39m {[0m
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m [Error: TransformError SyntaxError: /Users/redjanvier/Desktop/workspace/personal/walletia/src/navigation/screens/Reasons.tsx: Identifier 'navigation' has already been declared. (36:10)
 
-This error is located at:
-    in Profile (created by Memo(Screen))
-    in Memo(Screen)
-    in StaticContainer
-    in EnsureSingleNavigator (created by SceneView)
-    in SceneView (created by NativeStackNavigator)
-    in RNSScreenContentWrapper (created by ScreenContentWrapper)
-    in ScreenContentWrapper (created by DebugContainer)
-    in DebugContainer
-    in RNSScreen (created by Animated(Anonymous))
-    in Animated(Anonymous)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze
-    in InnerScreen (created by Screen)
-    in Screen
-    in ScreenStackItem (created by SceneView)
-    in SceneView (created by NativeStackView)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze (created by ScreenStack)
-    in RNSScreenStack (created by ScreenStack)
-    in Unknown (created by ScreenStack)
-    in ScreenStack (created by NativeStackView)
-    in RNCSafeAreaProvider (created by SafeAreaProvider)
-    in SafeAreaProvider (created by SafeAreaProviderCompat)
-    in SafeAreaProviderCompat (created by NativeStackView)
-    in NativeStackView (created by NativeStackNavigator)
-    in PreventRemoveProvider (created by NavigationContent)
-    in NavigationContent
-    in Unknown (created by NativeStackNavigator)
-    in NativeStackNavigator (created by RootNavigator)
-    in RootNavigator
-    in ThemeProvider
-    in EnsureSingleNavigator
-    in BaseNavigationContainer
-    in NavigationContainerInner
-    in Navigation (created by App)
-    in GlobalProvider (created by App)
-    in App (created by withDevTools(App))
-    in withDevTools(App)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by AppContainer)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by AppContainer)
-    in AppContainer
-    in main(RootComponent)
+[0m [90m 34 |[39m     [36mconst[39m [search[33m,[39m setSearch] [33m=[39m useState([32m""[39m)[33m;[39m
+ [90m 35 |[39m     [36mconst[39m {setReceipient} [33m=[39m useGlobalContext()[33m;[39m
+[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m navigation [33m=[39m useNavigation()[33m;[39m
+ [90m    |[39m           [31m[1m^[22m[39m
+ [90m 37 |[39m   
+ [90m 38 |[39m     useEffect(() [33m=>[39m {
+ [90m 39 |[39m       [36mconst[39m loadContacts [33m=[39m [36masync[39m () [33m=>[39m {[0m]
+[117D[2K[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/redjanvier/Desktop/workspace/personal/walletia/src/navigation/screens/Reasons.tsx: Identifier 'navigation' has already been declared. (36:10)
+
+[0m [90m 34 |[39m     [36mconst[39m [search[33m,[39m setSearch] [33m=[39m useState([32m""[39m)[33m;[39m
+ [90m 35 |[39m     [36mconst[39m {setReceipient} [33m=[39m useGlobalContext()[33m;[39m
+[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m navigation [33m=[39m useNavigation()[33m;[39m
+ [90m    |[39m           [31m[1m^[22m[39m
+ [90m 37 |[39m   
+ [90m 38 |[39m     useEffect(() [33m=>[39m {
+ [90m 39 |[39m       [36mconst[39m loadContacts [33m=[39m [36masync[39m () [33m=>[39m {[0m
+[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m [Error: TransformError SyntaxError: /Users/redjanvier/Desktop/workspace/personal/walletia/src/navigation/screens/Reasons.tsx: Identifier 'navigation' has already been declared. (36:10)
+
+[0m [90m 34 |[39m     [36mconst[39m [search[33m,[39m setSearch] [33m=[39m useState([32m""[39m)[33m;[39m
+ [90m 35 |[39m     [36mconst[39m {setReceipient} [33m=[39m useGlobalContext()[33m;[39m
+[31m[1m>[22m[39m[90m 36 |[39m     [36mconst[39m navigation [33m=[39m useNavigation()[33m;[39m
+ [90m    |[39m           [31m[1m^[22m[39m
+ [90m 37 |[39m   
+ [90m 38 |[39m     useEffect(() [33m=>[39m {
+ [90m 39 |[39m       [36mconst[39m loadContacts [33m=[39m [36masync[39m () [33m=>[39m {[0m]
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+  [38;5;113;1mnativewind [0mgetTransformOptions.dev true [38;5;113m+26m[0m
+  [38;5;113;1mnativewind [0mgetTransformOptions.platform android [38;5;113m+0ms[0m
+  [38;5;113;1mnativewind [0mgetTransformOptions.virtualModulesPossible true [38;5;113m+0ms[0m
+  [38;5;113;1mnativewind [0mgetTransformOptions.writeToFileSystem false [38;5;113m+0ms[0m
+  [38;5;113;1mnativewind [0mgetTransformOptions.dev true [38;5;113m+0ms[0m
+  [38;5;113;1mnativewind [0mgetTransformOptions.platform android [38;5;113m+0ms[0m
+  [38;5;113;1mnativewind [0mgetTransformOptions.virtualModulesPossible true [38;5;113m+0ms[0m
+  [38;5;113;1mnativewind [0mgetTransformOptions.writeToFileSystem false [38;5;113m+0ms[0m
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
 [117D[2K› Reloading apps
-[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[32m[1mAndroid[22m Bundled [39m[2m80ms[22m[0m[2m index.tsx (1 module)[22m[0m
-[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m Bridgeless mode is enabled
-[117D[2K[7m[37m[1m INFO [22m[39m[27m 
-[7m [1m💡 JavaScript logs will be removed from Metro in React Native 0.77![22m Please use React Native DevTools as your default tool. Tip: Type [1mj[22m in the terminal to open (requires Google Chrome or Microsoft Edge).[27m
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m []
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m []
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m [{"contactType": "person", "firstName": "John", "id": "1", "imageAvailable": false, "isFavorite": false, "lastName": "Doe", "lookupKey": "0r1-3C463844304632", "name": "John Doe", "phoneNumbers": [[Object]]}]
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m [{"contactType": "person", "firstName": "John", "id": "1", "imageAvailable": false, "isFavorite": false, "lastName": "Doe", "lookupKey": "0r1-3C463844304632", "name": "John Doe", "phoneNumbers": [[Object]]}]
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m [{"contactType": "person", "firstName": "John", "id": "1", "imageAvailable": false, "isFavorite": false, "lastName": "Doe", "lookupKey": "0r1-3C463844304632", "name": "John Doe", "phoneNumbers": [[Object]]}]
-[117D[2K› Reloading apps
-[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[32m[1mAndroid[22m Bundled [39m[2m62ms[22m[0m[2m index.tsx (1 module)[22m[0m
+[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[32m[1mAndroid[22m Bundled [39m[2m69ms[22m[0m[2m index.tsx (1 module)[22m[0m
 [1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m Bridgeless mode is enabled
 [117D[2K[7m[37m[1m INFO [22m[39m[27m 
 [7m [1m💡 JavaScript logs will be removed from Metro in React Native 0.77![22m Please use React Native DevTools as your default tool. Tip: Type [1mj[22m in the terminal to open (requires Google Chrome or Microsoft Edge).[27m
 [117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: Each child in a list should have a unique "key" prop.
 
 Check the render method of `VirtualizedList`. See https://reactjs.org/link/warning-keys for more information.
-    at CellRenderer (http://192.168.1.69:8081/index.tsx.bundle//&platform=android&dev=true&hot=false&transform.engine=hermes&transform.bytecode=1&transform.routerRoot=app&unstable_transformProfile=hermes-stable:83932:36)
+    at CellRenderer (http://192.168.1.76:8081/index.tsx.bundle//&platform=android&dev=true&hot=false&transform.engine=hermes&transform.bytecode=1&transform.routerRoot=app&unstable_transformProfile=hermes-stable:83932:36)
     in VirtualizedList
     in RemapPropsComponent (created by FlatList)
     in FlatList
-    in RemapPropsComponent (created by Profile)
-    in Profile (created by Memo(Screen))
+    in RemapPropsComponent (created by Reasons)
+    in Reasons (created by Memo(Screen))
     in Memo(Screen)
     in StaticContainer
     in EnsureSingleNavigator (created by SceneView)
@@ -348,10 +243,24 @@ Check the render method of `VirtualizedList`. See https://reactjs.org/link/warni
     in CssInterop.View (created by AppContainer)
     in AppContainer
     in main(RootComponent)
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: ReferenceError: Property 'handleSearch' doesn't exist
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: TypeError: Cannot read property 'replaceAll' of undefined
 
 This error is located at:
-    in Profile (created by Memo(Screen))
+    in CellRenderer (created by VirtualizedList)
+    in RCTView (created by View)
+    in View (created by CssInterop.View)
+    in CssInterop.View (created by ScrollView)
+    in RCTScrollView
+    in VScrollViewNativeComponent (created by ScrollView)
+    in ScrollView (created by ScrollView)
+    in Wrapper (created by CssInterop.ScrollView)
+    in CssInterop.ScrollView (created by VirtualizedList)
+    in VirtualizedListContextProvider (created by VirtualizedList)
+    in VirtualizedList
+    in RemapPropsComponent (created by FlatList)
+    in FlatList
+    in RemapPropsComponent (created by Reasons)
+    in Reasons (created by Memo(Screen))
     in Memo(Screen)
     in StaticContainer
     in EnsureSingleNavigator (created by SceneView)
@@ -401,10 +310,24 @@ This error is located at:
     in CssInterop.View (created by AppContainer)
     in AppContainer
     in main(RootComponent)
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: ReferenceError: Property 'handleSearch' doesn't exist
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: TypeError: Cannot read property 'replaceAll' of undefined
 
 This error is located at:
-    in Profile (created by Memo(Screen))
+    in CellRenderer (created by VirtualizedList)
+    in RCTView (created by View)
+    in View (created by CssInterop.View)
+    in CssInterop.View (created by ScrollView)
+    in RCTScrollView
+    in VScrollViewNativeComponent (created by ScrollView)
+    in ScrollView (created by ScrollView)
+    in Wrapper (created by CssInterop.ScrollView)
+    in CssInterop.ScrollView (created by VirtualizedList)
+    in VirtualizedListContextProvider (created by VirtualizedList)
+    in VirtualizedList
+    in RemapPropsComponent (created by FlatList)
+    in FlatList
+    in RemapPropsComponent (created by Reasons)
+    in Reasons (created by Memo(Screen))
     in Memo(Screen)
     in StaticContainer
     in EnsureSingleNavigator (created by SceneView)
@@ -454,17 +377,38 @@ This error is located at:
     in CssInterop.View (created by AppContainer)
     in AppContainer
     in main(RootComponent)
-  [38;5;113;1mnativewind [0mgetTransformOptions.dev true [38;5;113m+7h[0m
+  [38;5;113;1mnativewind [0mgetTransformOptions.dev true [38;5;113m+14m[0m
   [38;5;113;1mnativewind [0mgetTransformOptions.platform android [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0mgetTransformOptions.virtualModulesPossible true [38;5;113m+0ms[0m
   [38;5;113;1mnativewind [0mgetTransformOptions.writeToFileSystem false [38;5;113m+0ms[0m
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m {"name": "John Doe", "phone": "0789556325"}
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m {"name": "John Doe", "phone": "0789556325"}
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m {"name": "John Doe", "phone": "0789556325"}
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: TypeError: text.trim is not a function (it is undefined)
+[117D[2K› Reloading apps
+[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[32m[1mAndroid[22m Bundled [39m[2m80ms[22m[0m[2m index.tsx (1 module)[22m[0m
+[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m Bridgeless mode is enabled
+[117D[2K[7m[37m[1m INFO [22m[39m[27m 
+[7m [1m💡 JavaScript logs will be removed from Metro in React Native 0.77![22m Please use React Native DevTools as your default tool. Tip: Type [1mj[22m in the terminal to open (requires Google Chrome or Microsoft Edge).[27m
+[117D[2K› Reloading apps
+[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[32m[1mAndroid[22m Bundled [39m[2m53ms[22m[0m[2m index.tsx (1 module)[22m[0m
+[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m Bridgeless mode is enabled
+[117D[2K[7m[37m[1m INFO [22m[39m[27m 
+[7m [1m💡 JavaScript logs will be removed from Metro in React Native 0.77![22m Please use React Native DevTools as your default tool. Tip: Type [1mj[22m in the terminal to open (requires Google Chrome or Microsoft Edge).[27m
+[117D[2K[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[32m[1mAndroid[22m Bundled [39m[2m59ms[22m[0m[2m index.tsx (1 module)[22m[0m
+[1mAndroid[22m [0m[2m./[22m[0m[1mindex.tsx[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m[117D[2K[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m Bridgeless mode is enabled
+[117D[2K[7m[37m[1m INFO [22m[39m[27m 
+[7m [1m💡 JavaScript logs will be removed from Metro in React Native 0.77![22m Please use React Native DevTools as your default tool. Tip: Type [1mj[22m in the terminal to open (requires Google Chrome or Microsoft Edge).[27m
+  [38;5;113;1mnativewind [0mTailwind CLI detected new styles [38;5;113m+46m[0m
+  [38;5;113;1mnativewind [0mvirtualStyles.update android [38;5;113m+5m[0m
+  [38;5;113;1mnativewind [0mStart stringify [38;5;113m+33ms[0m
+  [38;5;113;1mnativewind [0mOutput size: 80 bytes [38;5;113m+1ms[0m
+  [38;5;113;1mnativewind [0mvirtualStyles.emit android [38;5;113m+0ms[0m
+  [38;5;113;1mnativewind [0mTailwind CLI detected new styles [38;5;113m+3s[0m
+  [38;5;113;1mnativewind [0mvirtualStyles.update android [38;5;113m+3s[0m
+  [38;5;113;1mnativewind [0mStart stringify [38;5;113m+2ms[0m
+  [38;5;113;1mnativewind [0mOutput size: 80 bytes [38;5;113m+0ms[0m
+  [38;5;113;1mnativewind [0mvirtualStyles.emit android [38;5;113m+0ms[0m
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: ReferenceError: Property 'handleCheckBalance' doesn't exist
 
 This error is located at:
-    in Profile (created by Memo(Screen))
+    in Reasons (created by Memo(Screen))
     in Memo(Screen)
     in StaticContainer
     in EnsureSingleNavigator (created by SceneView)
@@ -485,7 +429,7 @@ This error is located at:
     in Suspender (created by Freeze)
     in Suspense (created by Freeze)
     in Freeze (created by DelayedFreeze)
-    in DelayedFreeze (created by ScreenStack)
+    in DelayedFreeze (created by ScreenStack)
     in RNSScreenStack (created by ScreenStack)
     in Unknown (created by ScreenStack)
     in ScreenStack (created by NativeStackView)
@@ -514,10 +458,10 @@ This error is located at:
     in CssInterop.View (created by AppContainer)
     in AppContainer
     in main(RootComponent)
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: TypeError: text.trim is not a function (it is undefined)
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: ReferenceError: Property 'handleCheckBalance' doesn't exist
 
 This error is located at:
-    in Profile (created by Memo(Screen))
+    in Reasons (created by Memo(Screen))
     in Memo(Screen)
     in StaticContainer
     in EnsureSingleNavigator (created by SceneView)
@@ -538,7 +482,7 @@ This error is located at:
     in Suspender (created by Freeze)
     in Suspense (created by Freeze)
     in Freeze (created by DelayedFreeze)
-    in DelayedFreeze (created by ScreenStack)
+    in DelayedFreeze (created by ScreenStack)
     in RNSScreenStack (created by ScreenStack)
     in Unknown (created by ScreenStack)
     in ScreenStack (created by NativeStackView)
@@ -567,187 +511,40 @@ This error is located at:
     in CssInterop.View (created by AppContainer)
     in AppContainer
     in main(RootComponent)
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m {"_dispatchInstances": {"_debugHookTypes": null, "_debugInfo": null, "_debugNeedsRemount": false, "_debugOwner": {"_debugHookTypes": [Array], "_debugInfo": null, "_debugNeedsRemount": false, "_debugOwner": [FiberNode], "actualDuration": 1.5724159926176071, "actualStartTime": 98300502.134354, "alternate": [FiberNode], "child": [FiberNode], "childLanes": 0, "deletions": null, "dependencies": null, "elementType": [Function InternalTextInput], "flags": 12584965, "index": 0, "key": null, "lanes": 0, "memoizedProps": [Object], "memoizedState": [Object], "mode": 3, "pendingProps": [Object], "ref": null, "refCleanup": null, "return": [FiberNode], "selfBaseDuration": 0.2057499885559082, "sibling": null, "stateNode": null, "subtreeFlags": 2097664, "tag": 0, "treeBaseDuration": 0.2162499874830246, "type": [Function InternalTextInput], "updateQueue": [Object]}, "actualDuration": 1.3505410104990005, "actualStartTime": 98300502.348604, "alternate": {"_debugHookTypes": null, "_debugInfo": null, "_debugNeedsRemount": false, "_debugOwner": [FiberNode], "actualDuration": 0.03108300268650055, "actualStartTime": 98301167.581605, "alternate": [Circular], "child": null, "childLanes": 0, "deletions": null, "dependencies": null, "elementType": "AndroidTextInput", "flags": 2097152, "index": 0, "key": null, "lanes": 0, "memoizedProps": [Object], "memoizedState": null, "mode": 3, "pendingProps": [Object], "ref": [Function anonymous], "refCleanup": undefined, "return": [FiberNode], "selfBaseDuration": 0.004583001136779785, "sibling": null, "stateNode": [Object], "subtreeFlags": 0, "tag": 5, "treeBaseDuration": 0.004583001136779785, "type": "AndroidTextInput", "updateQueue": null}, "child": null, "childLanes": 0, "deletions": null, "dependencies": null, "elementType": "AndroidTextInput", "flags": 2097664, "index": 0, "key": null, "lanes": 0, "memoizedProps": {"accessibilityLabelledBy": undefined, "accessibilityState": undefined, "accessible": true, "allowFontScaling": true, "autoCapitalize": "sentences", "autoComplete": undefined, "caretHidden": undefined, "children": undefined, "cursorColor": undefined, "disableFullscreenUI": undefined, "editable": undefined, "focusable": true, "forwardedRef": null, "keyboardType": undefined, "mostRecentEventCount": 0, "nativeID": undefined, "numberOfLines": undefined, "onBlur": [Function _onBlur], "onChange": [Function _onChange], "onClick": [Function onClick], "onFocus": [Function _onFocus], "onResponderGrant": [Function onResponderGrant], "onResponderMove": [Function onResponderMove], "onResponderRelease": [Function onResponderRelease], "onResponderTerminate": [Function onResponderTerminate], "onResponderTerminationRequest": [Function onResponderTerminationRequest], "onScroll": [Function _onScroll], "onSelectionChange": [Function _onSelectionChange], "onStartShouldSetResponder": [Function onStartShouldSetResponder], "placeholder": "Search for a contact", "rejectResponderTermination": true, "returnKeyType": undefined, "selectionColor": undefined, "selectionHandleColor": undefined, "showSoftInputOnFocus": undefined, "style": [Object], "submitBehavior": "blurAndSubmit", "text": "", "textBreakStrategy": undefined, "textContentType": undefined, "underlineColorAndroid": "transparent", "value": ""}, "memoizedState": null, "mode": 3, "pendingProps": {"accessibilityLabelledBy": undefined, "accessibilityState": undefined, "accessible": true, "allowFontScaling": true, "autoCapitalize": "sentences", "autoComplete": undefined, "caretHidden": undefined, "children": undefined, "cursorColor": undefined, "disableFullscreenUI": undefined, "editable": undefined, "focusable": true, "forwardedRef": null, "keyboardType": undefined, "mostRecentEventCount": 0, "nativeID": undefined, "numberOfLines": undefined, "onBlur": [Function _onBlur], "onChange": [Function _onChange], "onClick": [Function onClick], "onFocus": [Function _onFocus], "onResponderGrant": [Function onResponderGrant], "onResponderMove": [Function onResponderMove], "onResponderRelease": [Function onResponderRelease], "onResponderTerminate": [Function onResponderTerminate], "onResponderTerminationRequest": [Function onResponderTerminationRequest], "onScroll": [Function _onScroll], "onSelectionChange": [Function _onSelectionChange], "onStartShouldSetResponder": [Function onStartShouldSetResponder], "placeholder": "Search for a contact", "rejectResponderTermination": true, "returnKeyType": undefined, "selectionColor": undefined, "selectionHandleColor": undefined, "showSoftInputOnFocus": undefined, "style": [Object], "submitBehavior": "blurAndSubmit", "text": "", "textBreakStrategy": undefined, "textContentType": undefined, "underlineColorAndroid": "transparent", "value": ""}, "ref": [Function anonymous], "refCleanup": undefined, "return": {"_debugHookTypes": null, "_debugInfo": null, "_debugNeedsRemount": false, "_debugOwner": [FiberNode], "actualDuration": 1.3656250089406967, "actualStartTime": 98300502.341688, "alternate": [FiberNode], "child": [Circular], "childLanes": 0, "deletions": null, "dependencies": null, "elementType": [Object], "flags": 0, "index": 0, "key": null, "lanes": 0, "memoizedProps": [Object], "memoizedState": null, "mode": 3, "pendingProps": [Object], "ref": null, "refCleanup": null, "return": [FiberNode], "selfBaseDuration": 0.006333991885185242, "sibling": null, "stateNode": null, "subtreeFlags": 2097664, "tag": 10, "treeBaseDuration": 0.010499998927116394, "type": [Object], "updateQueue": null}, "selfBaseDuration": 0.004166007041931152, "sibling": null, "stateNode": {"canonical": [Object], "node": [Object]}, "subtreeFlags": 0, "tag": 5, "treeBaseDuration": 0.004166007041931152, "type": "AndroidTextInput", "updateQueue": null}, "_dispatchListeners": [Function _onChange], "_targetInst": {"_debugHookTypes": null, "_debugInfo": null, "_debugNeedsRemount": false, "_debugOwner": {"_debugHookTypes": [Array], "_debugInfo": null, "_debugNeedsRemount": false, "_debugOwner": [FiberNode], "actualDuration": 1.5724159926176071, "actualStartTime": 98300502.134354, "alternate": [FiberNode], "child": [FiberNode], "childLanes": 0, "deletions": null, "dependencies": null, "elementType": [Function InternalTextInput], "flags": 12584965, "index": 0, "key": null, "lanes": 0, "memoizedProps": [Object], "memoizedState": [Object], "mode": 3, "pendingProps": [Object], "ref": null, "refCleanup": null, "return": [FiberNode], "selfBaseDuration": 0.2057499885559082, "sibling": null, "stateNode": null, "subtreeFlags": 2097664, "tag": 0, "treeBaseDuration": 0.2162499874830246, "type": [Function InternalTextInput], "updateQueue": [Object]}, "actualDuration": 1.3505410104990005, "actualStartTime": 98300502.348604, "alternate": {"_debugHookTypes": null, "_debugInfo": null, "_debugNeedsRemount": false, "_debugOwner": [FiberNode], "actualDuration": 0.03108300268650055, "actualStartTime": 98301167.581605, "alternate": [Circular], "child": null, "childLanes": 0, "deletions": null, "dependencies": null, "elementType": "AndroidTextInput", "flags": 2097152, "index": 0, "key": null, "lanes": 0, "memoizedProps": [Object], "memoizedState": null, "mode": 3, "pendingProps": [Object], "ref": [Function anonymous], "refCleanup": undefined, "return": [FiberNode], "selfBaseDuration": 0.004583001136779785, "sibling": null, "stateNode": [Object], "subtreeFlags": 0, "tag": 5, "treeBaseDuration": 0.004583001136779785, "type": "AndroidTextInput", "updateQueue": null}, "child": null, "childLanes": 0, "deletions": null, "dependencies": null, "elementType": "AndroidTextInput", "flags": 2097664, "index": 0, "key": null, "lanes": 0, "memoizedProps": {"accessibilityLabelledBy": undefined, "accessibilityState": undefined, "accessible": true, "allowFontScaling": true, "autoCapitalize": "sentences", "autoComplete": undefined, "caretHidden": undefined, "children": undefined, "cursorColor": undefined, "disableFullscreenUI": undefined, "editable": undefined, "focusable": true, "forwardedRef": null, "keyboardType": undefined, "mostRecentEventCount": 0, "nativeID": undefined, "numberOfLines": undefined, "onBlur": [Function _onBlur], "onChange": [Function _onChange], "onClick": [Function onClick], "onFocus": [Function _onFocus], "onResponderGrant": [Function onResponderGrant], "onResponderMove": [Function onResponderMove], "onResponderRelease": [Function onResponderRelease], "onResponderTerminate": [Function onResponderTerminate], "onResponderTerminationRequest": [Function onResponderTerminationRequest], "onScroll": [Function _onScroll], "onSelectionChange": [Function _onSelectionChange], "onStartShouldSetResponder": [Function onStartShouldSetResponder], "placeholder": "Search for a contact", "rejectResponderTermination": true, "returnKeyType": undefined, "selectionColor": undefined, "selectionHandleColor": undefined, "showSoftInputOnFocus": undefined, "style": [Object], "submitBehavior": "blurAndSubmit", "text": "", "textBreakStrategy": undefined, "textContentType": undefined, "underlineColorAndroid": "transparent", "value": ""}, "memoizedState": null, "mode": 3, "pendingProps": {"accessibilityLabelledBy": undefined, "accessibilityState": undefined, "accessible": true, "allowFontScaling": true, "autoCapitalize": "sentences", "autoComplete": undefined, "caretHidden": undefined, "children": undefined, "cursorColor": undefined, "disableFullscreenUI": undefined, "editable": undefined, "focusable": true, "forwardedRef": null, "keyboardType": undefined, "mostRecentEventCount": 0, "nativeID": undefined, "numberOfLines": undefined, "onBlur": [Function _onBlur], "onChange": [Function _onChange], "onClick": [Function onClick], "onFocus": [Function _onFocus], "onResponderGrant": [Function onResponderGrant], "onResponderMove": [Function onResponderMove], "onResponderRelease": [Function onResponderRelease], "onResponderTerminate": [Function onResponderTerminate], "onResponderTerminationRequest": [Function onResponderTerminationRequest], "onScroll": [Function _onScroll], "onSelectionChange": [Function _onSelectionChange], "onStartShouldSetResponder": [Function onStartShouldSetResponder], "placeholder": "Search for a contact", "rejectResponderTermination": true, "returnKeyType": undefined, "selectionColor": undefined, "selectionHandleColor": undefined, "showSoftInputOnFocus": undefined, "style": [Object], "submitBehavior": "blurAndSubmit", "text": "", "textBreakStrategy": undefined, "textContentType": undefined, "underlineColorAndroid": "transparent", "value": ""}, "ref": [Function anonymous], "refCleanup": undefined, "return": {"_debugHookTypes": null, "_debugInfo": null, "_debugNeedsRemount": false, "_debugOwner": [FiberNode], "actualDuration": 1.3656250089406967, "actualStartTime": 98300502.341688, "alternate": [FiberNode], "child": [Circular], "childLanes": 0, "deletions": null, "dependencies": null, "elementType": [Object], "flags": 0, "index": 0, "key": null, "lanes": 0, "memoizedProps": [Object], "memoizedState": null, "mode": 3, "pendingProps": [Object], "ref": null, "refCleanup": null, "return": [FiberNode], "selfBaseDuration": 0.006333991885185242, "sibling": null, "stateNode": null, "subtreeFlags": 2097664, "tag": 10, "treeBaseDuration": 0.010499998927116394, "type": [Object], "updateQueue": null}, "selfBaseDuration": 0.004166007041931152, "sibling": null, "stateNode": {"canonical": [Object], "node": [Object]}, "subtreeFlags": 0, "tag": 5, "treeBaseDuration": 0.004166007041931152, "type": "AndroidTextInput", "updateQueue": null}, "bubbles": undefined, "cancelable": undefined, "currentTarget": {"__internalInstanceHandle": {"_debugHookTypes": null, "_debugInfo": null, "_debugNeedsRemount": false, "_debugOwner": [FiberNode], "actualDuration": 1.3505410104990005, "actualStartTime": 98300502.348604, "alternate": [FiberNode], "child": null, "childLanes": 0, "deletions": null, "dependencies": null, "elementType": "AndroidTextInput", "flags": 2097664, "index": 0, "key": null, "lanes": 0, "memoizedProps": [Object], "memoizedState": null, "mode": 3, "pendingProps": [Object], "ref": [Function anonymous], "refCleanup": undefined, "return": [FiberNode], "selfBaseDuration": 0.004166007041931152, "sibling": null, "stateNode": [Object], "subtreeFlags": 0, "tag": 5, "treeBaseDuration": 0.004166007041931152, "type": "AndroidTextInput", "updateQueue": null}, "__nativeTag": 1396, "_viewConfig": {"Commands": [Object], "bubblingEventTypes": [Object], "directEventTypes": [Object], "uiViewClassName": "AndroidTextInput", "validAttributes": [Object]}, "clear": [Function clear], "getNativeRef": [Function getNativeRef], "isFocused": [Function isFocused], "setSelection": [Function setSelection]}, "defaultPrevented": undefined, "dispatchConfig": {"phasedRegistrationNames": {"bubbled": "onChange", "captured": "onChangeCapture"}}, "eventPhase": undefined, "isDefaultPrevented": [Function functionThatReturnsFalse], "isPropagationStopped": [Function functionThatReturnsFalse], "isTrusted": undefined, "nativeEvent": {"eventCount": 4, "target": 1396, "text": "j"}, "target": {"__internalInstanceHandle": {"_debugHookTypes": null, "_debugInfo": null, "_debugNeedsRemount": false, "_debugOwner": [FiberNode], "actualDuration": 1.3505410104990005, "actualStartTime": 98300502.348604, "alternate": [FiberNode], "child": null, "childLanes": 0, "deletions": null, "dependencies": null, "elementType": "AndroidTextInput", "flags": 2097664, "index": 0, "key": null, "lanes": 0, "memoizedProps": [Object], "memoizedState": null, "mode": 3, "pendingProps": [Object], "ref": [Function anonymous], "refCleanup": undefined, "return": [FiberNode], "selfBaseDuration": 0.004166007041931152, "sibling": null, "stateNode": [Object], "subtreeFlags": 0, "tag": 5, "treeBaseDuration": 0.004166007041931152, "type": "AndroidTextInput", "updateQueue": null}, "__nativeTag": 1396, "_viewConfig": {"Commands": [Object], "bubblingEventTypes": [Object], "directEventTypes": [Object], "uiViewClassName": "AndroidTextInput", "validAttributes": [Object]}, "clear": [Function clear], "getNativeRef": [Function getNativeRef], "isFocused": [Function isFocused], "setSelection": [Function setSelection]}, "timeStamp": 1740145627566, "type": undefined}
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: TypeError: text.trim is not a function (it is undefined)
+[117D[2K[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/redjanvier/Desktop/workspace/personal/walletia/src/store/global.tsx: Unexpected token, expected ")" (19:34)
 
-This error is located at:
-    in Profile (created by Memo(Screen))
-    in Memo(Screen)
-    in StaticContainer
-    in EnsureSingleNavigator (created by SceneView)
-    in SceneView (created by NativeStackNavigator)
-    in RNSScreenContentWrapper (created by ScreenContentWrapper)
-    in ScreenContentWrapper (created by DebugContainer)
-    in DebugContainer
-    in RNSScreen (created by Animated(Anonymous))
-    in Animated(Anonymous)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze
-    in InnerScreen (created by Screen)
-    in Screen
-    in ScreenStackItem (created by SceneView)
-    in SceneView (created by NativeStackView)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze (created by ScreenStack)
-    in RNSScreenStack (created by ScreenStack)
-    in Unknown (created by ScreenStack)
-    in ScreenStack (created by NativeStackView)
-    in RNCSafeAreaProvider (created by SafeAreaProvider)
-    in SafeAreaProvider (created by SafeAreaProviderCompat)
-    in SafeAreaProviderCompat (created by NativeStackView)
-    in NativeStackView (created by NativeStackNavigator)
-    in PreventRemoveProvider (created by NavigationContent)
-    in NavigationContent
-    in Unknown (created by NativeStackNavigator)
-    in NativeStackNavigator (created by RootNavigator)
-    in RootNavigator
-    in ThemeProvider
-    in EnsureSingleNavigator
-    in BaseNavigationContainer
-    in NavigationContainerInner
-    in Navigation (created by App)
-    in GlobalProvider (created by App)
-    in App (created by withDevTools(App))
-    in withDevTools(App)
+[0m [90m 17 |[39m   currTransaction[33m:[39m [33mITransaction[39m[33m|[39m[36mnull[39m[33m;[39m
+ [90m 18 |[39m   reason[33m:[39m string[33m;[39m
+[31m[1m>[22m[39m[90m 19 |[39m   setReason[33m:[39m (value[33m:[39m string [33m|[39m (rsn[33m:[39m any) [33m=>[39m string) [33m=>[39m [36mvoid[39m[33m;[39m
+ [90m    |[39m                                   [31m[1m^[22m[39m
+ [90m 20 |[39m }
+ [90m 21 |[39m
+ [90m 22 |[39m [36mconst[39m [33mGlobalContext[39m [33m=[39m createContext[33m<[39m[33mGlobalContextType[39m [33m|[39m undefined[33m>[39m(undefined)[33m;[39m[0m
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m [Error: TransformError SyntaxError: /Users/redjanvier/Desktop/workspace/personal/walletia/src/store/global.tsx: Unexpected token, expected ")" (19:34)
+
+[0m [90m 17 |[39m   currTransaction[33m:[39m [33mITransaction[39m[33m|[39m[36mnull[39m[33m;[39m
+ [90m 18 |[39m   reason[33m:[39m string[33m;[39m
+[31m[1m>[22m[39m[90m 19 |[39m   setReason[33m:[39m (value[33m:[39m string [33m|[39m (rsn[33m:[39m any) [33m=>[39m string) [33m=>[39m [36mvoid[39m[33m;[39m
+ [90m    |[39m                                   [31m[1m^[22m[39m
+ [90m 20 |[39m }
+ [90m 21 |[39m
+ [90m 22 |[39m [36mconst[39m [33mGlobalContext[39m [33m=[39m createContext[33m<[39m[33mGlobalContextType[39m [33m|[39m undefined[33m>[39m(undefined)[33m;[39m[0m]
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: Encountered two children with the same key, `.$0=2Rafiki Yangu2025-02-22T05=243=212.987Z`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
     in RCTView (created by View)
     in View (created by CssInterop.View)
-    in CssInterop.View (created by AppContainer)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by AppContainer)
-    in AppContainer
-    in main(RootComponent)
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: TypeError: text.trim is not a function (it is undefined)
-
-This error is located at:
-    in Profile (created by Memo(Screen))
-    in Memo(Screen)
-    in StaticContainer
-    in EnsureSingleNavigator (created by SceneView)
-    in SceneView (created by NativeStackNavigator)
-    in RNSScreenContentWrapper (created by ScreenContentWrapper)
-    in ScreenContentWrapper (created by DebugContainer)
-    in DebugContainer
-    in RNSScreen (created by Animated(Anonymous))
-    in Animated(Anonymous)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze
-    in InnerScreen (created by Screen)
-    in Screen
-    in ScreenStackItem (created by SceneView)
-    in SceneView (created by NativeStackView)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze (created by ScreenStack)
-    in RNSScreenStack (created by ScreenStack)
-    in Unknown (created by ScreenStack)
-    in ScreenStack (created by NativeStackView)
-    in RNCSafeAreaProvider (created by SafeAreaProvider)
-    in SafeAreaProvider (created by SafeAreaProviderCompat)
-    in SafeAreaProviderCompat (created by NativeStackView)
-    in NativeStackView (created by NativeStackNavigator)
-    in PreventRemoveProvider (created by NavigationContent)
-    in NavigationContent
-    in Unknown (created by NativeStackNavigator)
-    in NativeStackNavigator (created by RootNavigator)
-    in RootNavigator
-    in ThemeProvider
-    in EnsureSingleNavigator
-    in BaseNavigationContainer
-    in NavigationContainerInner
-    in Navigation (created by App)
-    in GlobalProvider (created by App)
-    in App (created by withDevTools(App))
-    in withDevTools(App)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by AppContainer)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by AppContainer)
-    in AppContainer
-    in main(RootComponent)
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 9
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 9j
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 9
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 9
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 99
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 999
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 99
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 9
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 95
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 9
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m j
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m jo
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m joh
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m john
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m john9
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m john
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m joh
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m john
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m joh
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m jo
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m j
-[117D[2K[7m[37m[1m (NOBRIDGE) LOG [22m[39m[27m 
-[117D[2K[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/redjanvier/Desktop/workspace/personal/walletia/src/navigation/screens/Home.tsx: Unexpected token (10:28)
-
-[0m [90m  8 |[39m
- [90m  9 |[39m [36mconst[39m initialReceipient [33m=[39m {phone[33m:[39m [32m''[39m[33m,[39m amount[33m:[39m [32m''[39m[33m,[39m name[33m:[39m [32m'unkown'[39m}[33m;[39m
-[31m[1m>[22m[39m[90m 10 |[39m [36mexport[39m [36mfunction[39m [33mHome[39m(props[33m:[39m ) {
- [90m    |[39m                             [31m[1m^[22m[39m
- [90m 11 |[39m   [36mconst[39m amountRef [33m=[39m useRef([36mnull[39m)[33m;[39m
- [90m 12 |[39m   [36mconst[39m router [33m=[39m useNavigation()[33m;[39m
- [90m 13 |[39m[0m
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m [Error: TransformError SyntaxError: /Users/redjanvier/Desktop/workspace/personal/walletia/src/navigation/screens/Home.tsx: Unexpected token (10:28)
-
-[0m [90m  8 |[39m
- [90m  9 |[39m [36mconst[39m initialReceipient [33m=[39m {phone[33m:[39m [32m''[39m[33m,[39m amount[33m:[39m [32m''[39m[33m,[39m name[33m:[39m [32m'unkown'[39m}[33m;[39m
-[31m[1m>[22m[39m[90m 10 |[39m [36mexport[39m [36mfunction[39m [33mHome[39m(props[33m:[39m ) {
- [90m    |[39m                             [31m[1m^[22m[39m
- [90m 11 |[39m   [36mconst[39m amountRef [33m=[39m useRef([36mnull[39m)[33m;[39m
- [90m 12 |[39m   [36mconst[39m router [33m=[39m useNavigation()[33m;[39m
- [90m 13 |[39m[0m]
-[117D[2K[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /Users/redjanvier/Desktop/workspace/personal/walletia/src/navigation/screens/Home.tsx: Type argument list cannot be empty. (10:37)
-
-[0m [90m  8 |[39m
- [90m  9 |[39m [36mconst[39m initialReceipient [33m=[39m {phone[33m:[39m [32m''[39m[33m,[39m amount[33m:[39m [32m''[39m[33m,[39m name[33m:[39m [32m'unkown'[39m}[33m;[39m
-[31m[1m>[22m[39m[90m 10 |[39m [36mexport[39m [36mfunction[39m [33mHome[39m(props[33m:[39m [33mLinkProps[39m[33m<[39m[33m>[39m) {
- [90m    |[39m                                      [31m[1m^[22m[39m
- [90m 11 |[39m   [36mconst[39m amountRef [33m=[39m useRef([36mnull[39m)[33m;[39m
- [90m 12 |[39m   [36mconst[39m router [33m=[39m useNavigation()[33m;[39m
- [90m 13 |[39m[0m
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m [Error: TransformError SyntaxError: /Users/redjanvier/Desktop/workspace/personal/walletia/src/navigation/screens/Home.tsx: Type argument list cannot be empty. (10:37)
-
-[0m [90m  8 |[39m
- [90m  9 |[39m [36mconst[39m initialReceipient [33m=[39m {phone[33m:[39m [32m''[39m[33m,[39m amount[33m:[39m [32m''[39m[33m,[39m name[33m:[39m [32m'unkown'[39m}[33m;[39m
-[31m[1m>[22m[39m[90m 10 |[39m [36mexport[39m [36mfunction[39m [33mHome[39m(props[33m:[39m [33mLinkProps[39m[33m<[39m[33m>[39m) {
- [90m    |[39m                                      [31m[1m^[22m[39m
- [90m 11 |[39m   [36mconst[39m amountRef [33m=[39m useRef([36mnull[39m)[33m;[39m
- [90m 12 |[39m   [36mconst[39m router [33m=[39m useNavigation()[33m;[39m
- [90m 13 |[39m[0m]
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: Error: Exception in HostFunction: TypeError: expected dynamic type `boolean', but had type `object'
-
-This error is located at:
-    in AndroidTextInput (created by InternalTextInput)
-    in InternalTextInput (created by TextInput)
-    in TextInput (created by CssInterop.TextInput)
-    in CssInterop.TextInput (created by Home)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by Home)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by Home)
-    in Home (created by Memo(Screen))
+    in CssInterop.View (created by ScrollView)
+    in RCTScrollView
+    in VScrollViewNativeComponent (created by ScrollView)
+    in ScrollView (created by ScrollView)
+    in Wrapper (created by CssInterop.ScrollView)
+    in CssInterop.ScrollView (created by VirtualizedList)
+    in VirtualizedListContextProvider (created by VirtualizedList)
+    in VirtualizedList
+    in RemapPropsComponent (created by VirtualizedSectionList)
+    in VirtualizedSectionList (created by SectionList)
+    in SectionList (created by TransactionList)
+    in TransactionList (created by Settings)
+    in Settings (created by Memo(Screen))
     in Memo(Screen)
     in StaticContainer
     in EnsureSingleNavigator (created by SceneView)
@@ -829,105 +626,22 @@ This error is located at:
     in CssInterop.View (created by AppContainer)
     in AppContainer
     in main(RootComponent)
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: Error: Exception in HostFunction: TypeError: expected dynamic type `boolean', but had type `object'
-
-This error is located at:
-    in AndroidTextInput (created by InternalTextInput)
-    in InternalTextInput (created by TextInput)
-    in TextInput (created by CssInterop.TextInput)
-    in CssInterop.TextInput (created by Home)
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: Encountered two children with the same key, `.$0=2Rafiki Yangu2025-02-22T05=243=212.987Z`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
     in RCTView (created by View)
     in View (created by CssInterop.View)
-    in CssInterop.View (created by Home)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by Home)
-    in Home (created by Memo(Screen))
-    in Memo(Screen)
-    in StaticContainer
-    in EnsureSingleNavigator (created by SceneView)
-    in SceneView (created by BottomTabNavigator)
-    in RCTView (created by View)
-    in View (created by Screen)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by Animated(View))
-    in Animated(View) (created by Background)
-    in Background (created by Screen)
-    in Screen (created by BottomTabView)
-    in RNSScreen (created by Animated(Anonymous))
-    in Animated(Anonymous)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze
-    in InnerScreen (created by Screen)
-    in Screen (created by MaybeScreen)
-    in MaybeScreen (created by BottomTabView)
-    in RNSScreenContainer (created by ScreenContainer)
-    in ScreenContainer (created by MaybeScreenContainer)
-    in MaybeScreenContainer (created by BottomTabView)
-    in RCTView (created by View)
-    in View (created by SafeAreaProviderCompat)
-    in SafeAreaProviderCompat (created by BottomTabView)
-    in BottomTabView (created by BottomTabNavigator)
-    in PreventRemoveProvider (created by NavigationContent)
-    in NavigationContent
-    in Unknown (created by BottomTabNavigator)
-    in BottomTabNavigator (created by HomeTabsNavigator)
-    in HomeTabsNavigator
-    in StaticContainer
-    in EnsureSingleNavigator (created by SceneView)
-    in SceneView (created by NativeStackNavigator)
-    in RNSScreenContentWrapper (created by ScreenContentWrapper)
-    in ScreenContentWrapper (created by DebugContainer)
-    in DebugContainer
-    in RNSScreen (created by Animated(Anonymous))
-    in Animated(Anonymous)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze
-    in InnerScreen (created by Screen)
-    in Screen
-    in ScreenStackItem (created by SceneView)
-    in SceneView (created by NativeStackView)
-    in Suspender (created by Freeze)
-    in Suspense (created by Freeze)
-    in Freeze (created by DelayedFreeze)
-    in DelayedFreeze (created by ScreenStack)
-    in RNSScreenStack (created by ScreenStack)
-    in Unknown (created by ScreenStack)
-    in ScreenStack (created by NativeStackView)
-    in RNCSafeAreaProvider (created by SafeAreaProvider)
-    in SafeAreaProvider (created by SafeAreaProviderCompat)
-    in SafeAreaProviderCompat (created by NativeStackView)
-    in NativeStackView (created by NativeStackNavigator)
-    in PreventRemoveProvider (created by NavigationContent)
-    in NavigationContent
-    in Unknown (created by NativeStackNavigator)
-    in NativeStackNavigator (created by RootNavigator)
-    in RootNavigator
-    in ThemeProvider
-    in EnsureSingleNavigator
-    in BaseNavigationContainer
-    in NavigationContainerInner
-    in Navigation (created by App)
-    in GlobalProvider (created by App)
-    in App (created by withDevTools(App))
-    in withDevTools(App)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by AppContainer)
-    in RCTView (created by View)
-    in View (created by CssInterop.View)
-    in CssInterop.View (created by AppContainer)
-    in AppContainer
-    in main(RootComponent)
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: TypeError: Cannot read property 'phone' of null
-
-This error is located at:
-    in Home (created by Memo(Screen))
+    in CssInterop.View (created by ScrollView)
+    in RCTScrollView
+    in VScrollViewNativeComponent (created by ScrollView)
+    in ScrollView (created by ScrollView)
+    in Wrapper (created by CssInterop.ScrollView)
+    in CssInterop.ScrollView (created by VirtualizedList)
+    in VirtualizedListContextProvider (created by VirtualizedList)
+    in VirtualizedList
+    in RemapPropsComponent (created by VirtualizedSectionList)
+    in VirtualizedSectionList (created by SectionList)
+    in SectionList (created by TransactionList)
+    in TransactionList (created by Settings)
+    in Settings (created by Memo(Screen))
     in Memo(Screen)
     in StaticContainer
     in EnsureSingleNavigator (created by SceneView)
@@ -1009,10 +723,22 @@ This error is located at:
     in CssInterop.View (created by AppContainer)
     in AppContainer
     in main(RootComponent)
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: TypeError: Cannot read property 'phone' of null
-
-This error is located at:
-    in Home (created by Memo(Screen))
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: Encountered two children with the same key, `.$0=2Rafiki Yangu2025-02-22T05=243=212.987Z`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CssInterop.View)
+    in CssInterop.View (created by ScrollView)
+    in RCTScrollView
+    in VScrollViewNativeComponent (created by ScrollView)
+    in ScrollView (created by ScrollView)
+    in Wrapper (created by CssInterop.ScrollView)
+    in CssInterop.ScrollView (created by VirtualizedList)
+    in VirtualizedListContextProvider (created by VirtualizedList)
+    in VirtualizedList
+    in RemapPropsComponent (created by VirtualizedSectionList)
+    in VirtualizedSectionList (created by SectionList)
+    in SectionList (created by TransactionList)
+    in TransactionList (created by Settings)
+    in Settings (created by Memo(Screen))
     in Memo(Screen)
     in StaticContainer
     in EnsureSingleNavigator (created by SceneView)
@@ -1094,14 +820,22 @@ This error is located at:
     in CssInterop.View (created by AppContainer)
     in AppContainer
     in main(RootComponent)
-  [38;5;113;1mnativewind [0mgetTransformOptions.dev true [38;5;113m+28m[0m
-  [38;5;113;1mnativewind [0mgetTransformOptions.platform android [38;5;113m+0ms[0m
-  [38;5;113;1mnativewind [0mgetTransformOptions.virtualModulesPossible true [38;5;113m+0ms[0m
-  [38;5;113;1mnativewind [0mgetTransformOptions.writeToFileSystem false [38;5;113m+0ms[0m
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: TypeError: Cannot read property 'phone' of null
-
-This error is located at:
-    in Home (created by Memo(Screen))
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: Encountered two children with the same key, `.$0=2Rafiki Yangu2025-02-22T05=243=212.987Z`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CssInterop.View)
+    in CssInterop.View (created by ScrollView)
+    in RCTScrollView
+    in VScrollViewNativeComponent (created by ScrollView)
+    in ScrollView (created by ScrollView)
+    in Wrapper (created by CssInterop.ScrollView)
+    in CssInterop.ScrollView (created by VirtualizedList)
+    in VirtualizedListContextProvider (created by VirtualizedList)
+    in VirtualizedList
+    in RemapPropsComponent (created by VirtualizedSectionList)
+    in VirtualizedSectionList (created by SectionList)
+    in SectionList (created by TransactionList)
+    in TransactionList (created by Settings)
+    in Settings (created by Memo(Screen))
     in Memo(Screen)
     in StaticContainer
     in EnsureSingleNavigator (created by SceneView)
@@ -1183,10 +917,119 @@ This error is located at:
     in CssInterop.View (created by AppContainer)
     in AppContainer
     in main(RootComponent)
-[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: TypeError: Cannot read property 'phone' of null
-
-This error is located at:
-    in Home (created by Memo(Screen))
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: Encountered two children with the same key, `.$0=2Rafiki Yangu2025-02-22T05=243=212.987Z`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CssInterop.View)
+    in CssInterop.View (created by ScrollView)
+    in RCTScrollView
+    in VScrollViewNativeComponent (created by ScrollView)
+    in ScrollView (created by ScrollView)
+    in Wrapper (created by CssInterop.ScrollView)
+    in CssInterop.ScrollView (created by VirtualizedList)
+    in VirtualizedListContextProvider (created by VirtualizedList)
+    in VirtualizedList
+    in RemapPropsComponent (created by VirtualizedSectionList)
+    in VirtualizedSectionList (created by SectionList)
+    in SectionList (created by TransactionList)
+    in TransactionList (created by Settings)
+    in Settings (created by Memo(Screen))
+    in Memo(Screen)
+    in StaticContainer
+    in EnsureSingleNavigator (created by SceneView)
+    in SceneView (created by BottomTabNavigator)
+    in RCTView (created by View)
+    in View (created by Screen)
+    in RCTView (created by View)
+    in View (created by CssInterop.View)
+    in CssInterop.View (created by Animated(View))
+    in Animated(View) (created by Background)
+    in Background (created by Screen)
+    in Screen (created by BottomTabView)
+    in RNSScreen (created by Animated(Anonymous))
+    in Animated(Anonymous)
+    in Suspender (created by Freeze)
+    in Suspense (created by Freeze)
+    in Freeze (created by DelayedFreeze)
+    in DelayedFreeze
+    in InnerScreen (created by Screen)
+    in Screen (created by MaybeScreen)
+    in MaybeScreen (created by BottomTabView)
+    in RNSScreenContainer (created by ScreenContainer)
+    in ScreenContainer (created by MaybeScreenContainer)
+    in MaybeScreenContainer (created by BottomTabView)
+    in RCTView (created by View)
+    in View (created by SafeAreaProviderCompat)
+    in SafeAreaProviderCompat (created by BottomTabView)
+    in BottomTabView (created by BottomTabNavigator)
+    in PreventRemoveProvider (created by NavigationContent)
+    in NavigationContent
+    in Unknown (created by BottomTabNavigator)
+    in BottomTabNavigator (created by HomeTabsNavigator)
+    in HomeTabsNavigator
+    in StaticContainer
+    in EnsureSingleNavigator (created by SceneView)
+    in SceneView (created by NativeStackNavigator)
+    in RNSScreenContentWrapper (created by ScreenContentWrapper)
+    in ScreenContentWrapper (created by DebugContainer)
+    in DebugContainer
+    in RNSScreen (created by Animated(Anonymous))
+    in Animated(Anonymous)
+    in Suspender (created by Freeze)
+    in Suspense (created by Freeze)
+    in Freeze (created by DelayedFreeze)
+    in DelayedFreeze
+    in InnerScreen (created by Screen)
+    in Screen
+    in ScreenStackItem (created by SceneView)
+    in SceneView (created by NativeStackView)
+    in Suspender (created by Freeze)
+    in Suspense (created by Freeze)
+    in Freeze (created by DelayedFreeze)
+    in DelayedFreeze (created by ScreenStack)
+    in RNSScreenStack (created by ScreenStack)
+    in Unknown (created by ScreenStack)
+    in ScreenStack (created by NativeStackView)
+    in RNCSafeAreaProvider (created by SafeAreaProvider)
+    in SafeAreaProvider (created by SafeAreaProviderCompat)
+    in SafeAreaProviderCompat (created by NativeStackView)
+    in NativeStackView (created by NativeStackNavigator)
+    in PreventRemoveProvider (created by NavigationContent)
+    in NavigationContent
+    in Unknown (created by NativeStackNavigator)
+    in NativeStackNavigator (created by RootNavigator)
+    in RootNavigator
+    in ThemeProvider
+    in EnsureSingleNavigator
+    in BaseNavigationContainer
+    in NavigationContainerInner
+    in Navigation (created by App)
+    in GlobalProvider (created by App)
+    in App (created by withDevTools(App))
+    in withDevTools(App)
+    in RCTView (created by View)
+    in View (created by CssInterop.View)
+    in CssInterop.View (created by AppContainer)
+    in RCTView (created by View)
+    in View (created by CssInterop.View)
+    in CssInterop.View (created by AppContainer)
+    in AppContainer
+    in main(RootComponent)
+[117D[2K[7m[31m[1m (NOBRIDGE) ERROR [22m[39m[27m Warning: Encountered two children with the same key, `.$0=2Rafiki Yangu2025-02-22T05=243=212.987Z`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+    in RCTView (created by View)
+    in View (created by CssInterop.View)
+    in CssInterop.View (created by ScrollView)
+    in RCTScrollView
+    in VScrollViewNativeComponent (created by ScrollView)
+    in ScrollView (created by ScrollView)
+    in Wrapper (created by CssInterop.ScrollView)
+    in CssInterop.ScrollView (created by VirtualizedList)
+    in VirtualizedListContextProvider (created by VirtualizedList)
+    in VirtualizedList
+    in RemapPropsComponent (created by VirtualizedSectionList)
+    in VirtualizedSectionList (created by SectionList)
+    in SectionList (created by TransactionList)
+    in TransactionList (created by Settings)
+    in Settings (created by Memo(Screen))
     in Memo(Screen)
     in StaticContainer
     in EnsureSingleNavigator (created by SceneView)

@@ -10,7 +10,7 @@ import { useGlobalContext } from '../../store/global';
 export function Home() {
   const amountRef = useRef(null);
   const router = useNavigation();
-  const {receipient: initialReceipient, resetReceipient} = useGlobalContext();
+  const {receipient: initialReceipient, resetReceipient, setCurrTransaction} = useGlobalContext();
 
   useEffect(() => {
     const requestPhonePermission = async () => {
@@ -35,38 +35,16 @@ export function Home() {
 
   const maxPage = 3;
   const [page, setPage] = useState(1);
-  const [search, setSearch] = useState('');
   const [isNew, setIsNew] = useState(false);
-  const [recentContacts, setRecentContacts] = useState<IContact[]>([]);
-  const [filteredContacts, setFilteredContacts] = useState<IContact[]>(recentContacts);
-
-  useEffect(() => {
-    setFilteredContacts(
-      recentContacts.filter(
-        (contact) =>
-          contact.name.toLowerCase().includes(search.toLowerCase()) ||
-          contact.phone.includes(search)
-      )
-    );
-  }, [recentContacts, search]);
-
-  useEffect(() => {
-    (async() => {const stored = JSON.parse((await localStorage.getItem('maL_contacts')) ?? '[]');
-    setRecentContacts((prev) => (stored.length > 0 ? stored : prev));})()
-  }, []);
-
   const [receipient, setReceipient] = useState(initialReceipient);
 
   const handleCheckBalance = async () => {
     if (!receipient) return;
     if (receipient.phone.length < 4) return Alert.alert("Invalid Phone or MomoPay Code");
     if (!receipient.amount || +receipient.amount < 90) return Alert.alert("Amount should atleast be 90Rwf");
-    ImmediatePhoneCall
-      .immediatePhoneCall(`*182*${receipient.phone.length == 10 ? '1': '8'}*1*${receipient.phone}*${receipient.amount}#`);
+    // ImmediatePhoneCall
+    //   .immediatePhoneCall(`*182*${receipient.phone.length == 10 ? '1': '8'}*1*${receipient.phone}*${receipient.amount}#`);
 
-    const saved = JSON.parse(
-      (await localStorage.getItem('maL_transactions')) ?? '[]'
-    );
     const money = +receipient.amount;
     const charges = money <= 1000 ? 20 
       : money <= 5000? 100 
@@ -82,24 +60,16 @@ export function Home() {
       : money <= 1000000? 2000
       : money <= 2000000? 3000
       : 0;
-    saved.push({
+    const trx:ITransaction = {
       date: new Date().toISOString(),
       receipient,
       amount: money,
       charges,
-    });
-    await localStorage.setItem('maL_transactions', JSON.stringify(saved));
-
-    if (isNew && receipient.name !== 'unkown') {
-      const savedContacts = JSON.parse(
-        (await localStorage.getItem('maL_contacts')) ?? '[]'
-      );
-      savedContacts.push(receipient);
-      localStorage.setItem('maL_contacts', JSON.stringify(savedContacts));
-    }
+    };
 
     resetReceipient();
     setReceipient(initialReceipient);
+    setCurrTransaction(trx);
 
     router.navigate('Reasons');
   }
@@ -114,7 +84,7 @@ export function Home() {
       <View>
         <Text>Receipient</Text>
         <TextInput
-          autoFocus={!initialReceipient}
+          autoFocus={receipient === null || receipient.phone.length === 0}
           style={styles.input}
           keyboardType='numeric'
           placeholder='Receipient'
@@ -127,7 +97,7 @@ export function Home() {
       <View>
         <Text>Amount</Text>
         <TextInput
-          autoFocus={initialReceipient != null}
+          autoFocus={initialReceipient != null && initialReceipient.phone.length > 0}
           ref={amountRef}
           style={styles.input}
           keyboardType='numeric'

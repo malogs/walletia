@@ -14,6 +14,7 @@ import { Profile } from './screens/Profile';
 import { Settings } from './screens/Settings';
 import { NotFound } from './screens/NotFound';
 import { Updates } from './screens/Updates';
+import { Reasons } from './screens/Reasons';
 
 const HomeTabs = createBottomTabNavigator({
   screens: {
@@ -45,13 +46,8 @@ const HomeTabs = createBottomTabNavigator({
     },
     Settings: {
       screen: Settings,
-      options: ({ navigation }) => ({
-        presentation: 'modal',
-        headerRight: () => (
-          <HeaderButton onPress={navigation.goBack}>
-            <Text>Close</Text>
-          </HeaderButton>
-        ),
+      options: () => ({
+        title: 'History',
         tabBarIcon: ({ color, size }) => (
           <Image
             source={bell}
@@ -78,9 +74,14 @@ const RootStack = createNativeStackNavigator({
     },
     Profile: {
       screen: Profile,
-      options: {
+      options: ({navigation}) => ({
+        headerRight: () => (
+          <HeaderButton onPress={navigation.goBack}>
+            <Text>Close</Text>
+          </HeaderButton>
+        ),
         title: 'Contacts',
-      }
+      })
     },
     // Profile: {
     //   screen: Profile,
@@ -95,9 +96,14 @@ const RootStack = createNativeStackNavigator({
     //   },
     // },
     Reasons: {
+      screen: Reasons,
+      options: () => ({
+        title: 'Transaction Reason'
+      }),
+    },
+    Thanks: {
       screen: Updates,
       options: {
-        title: 'Save Transaction',
         headerShown: false,
       },
     },

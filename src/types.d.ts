@@ -28,7 +28,7 @@ interface IContact {
 
 interface ITransaction {
   date: string;
-  reason: string;
+  reason?: string;
   receipient: IContact;
   charges: number;
   amount: number;

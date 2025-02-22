@@ -17,4 +17,24 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 10,
   },
+  contact: {
+    padding: 10,
+    flexDirection: 'row',
+    gap: 10,
+    alignItems: 'center'
+  },
+  contactName: {
+    fontWeight: 'bold',
+  },
+  input: {
+    width: '95%',
+    paddingHorizontal: 10,
+    height: 50,
+    borderColor: '#000',
+    borderWidth: .3,
+    backgroundColor: 'white',
+    borderRadius: 10,
+    marginHorizontal: 10,
+    marginTop: 10,
+  },
 });
