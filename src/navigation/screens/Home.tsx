@@ -3,24 +3,33 @@ import { Text } from '@react-navigation/elements';
 import { useNavigation } from '@react-navigation/native';
 import ImmediatePhoneCall from 'react-native-immediate-phone-call';
 import localStorage from '@react-native-async-storage/async-storage';
-import { TouchableOpacity, StyleSheet, View, TextInput, Alert, Platform } from 'react-native';
-import { PERMISSIONS, request, RESULTS } from 'react-native-permissions';
+import { TouchableOpacity, StyleSheet, View, TextInput, Alert, Platform, PermissionsAndroid, FlatList, Image } from 'react-native';
 import { useGlobalContext } from '../../store/global';
+import moment from 'moment';
+import { formatMoney } from './Settings';
 
 export function Home() {
+  const { PERMISSIONS, request, RESULTS } = PermissionsAndroid;
   const amountRef = useRef(null);
   const router = useNavigation();
+  const [recentTrx, setTrx] = useState<ITransaction[]>([]);
   const {receipient: initialReceipient, resetReceipient, setCurrTransaction} = useGlobalContext();
 
   useEffect(() => {
+    const loadLast5Trx = async () => {
+      const data: ITransaction[] = JSON.parse(
+        (await localStorage.getItem('maL_transactions')) ?? '[]'
+      );
+      
+      if (data.length > 0) {
+        setTrx(data.reverse().slice(0, 5));
+      }
+    };
+
     const requestPhonePermission = async () => {
       try {
-        const result = await request(
-          Platform.select({
-            android: PERMISSIONS.ANDROID.CALL_PHONE,
-            ios: PERMISSIONS.IOS.CONTACTS,
-          })
-        );
+        if (Platform.OS !== "android") return;
+        const result = await request(PERMISSIONS.CALL_PHONE);
 
         if (result !== RESULTS.GRANTED) {
           console.log('Phone call permission denied');
@@ -30,20 +39,24 @@ export function Home() {
       }
     };
 
+    loadLast5Trx();
     requestPhonePermission();
   }, []);
 
-  const maxPage = 3;
-  const [page, setPage] = useState(1);
-  const [isNew, setIsNew] = useState(false);
   const [receipient, setReceipient] = useState(initialReceipient);
 
   const handleCheckBalance = async () => {
     if (!receipient) return;
     if (receipient.phone.length < 4) return Alert.alert("Invalid Phone or MomoPay Code");
     if (!receipient.amount || +receipient.amount < 90) return Alert.alert("Amount should atleast be 90Rwf");
-    ImmediatePhoneCall
-      .immediatePhoneCall(`*182*${receipient.phone.length == 10 ? '1': '8'}*1*${receipient.phone}*${receipient.amount}#`);
+    const ussd = `*182*${receipient.phone.length == 10 ? '1': '8'}*1*${receipient.phone}*${receipient.amount}#`;
+    try {
+      console.log("==========", ImmediatePhoneCall);
+      ImmediatePhoneCall.immediatePhoneCall(ussd);
+    } catch (error) {
+      console.log(error);
+      return;
+    }
 
     const money = +receipient.amount;
     const charges = money <= 1000 ? 20 
@@ -73,6 +86,20 @@ export function Home() {
 
     router.navigate('Reasons');
   }
+
+  const renderItem = ({ item }: {item: ITransaction}) => {
+    return(
+      <TouchableOpacity style={styles.contact}>
+        <Image source={{uri: `https://ui-avatars.com/api/?size=30&uppercase=false&name=${(item.receipient.name ? item.receipient.name: 'unkown').replaceAll(' ', '+')}`, width: 30, height: 30}} />
+        <View style={{flex: 1}}>
+          <Text>{item.receipient.name !== 'unkown' ? item.receipient.name: (item.receipient.phone.length > 0? item.receipient.phone : 'unkown')}</Text>
+          <Text style={{color: 'gray'}}>{moment(item.date).format(item.group !== 'Last 7 Days' ? 'HH:mm': 'ddd, MMM Do HH:mm')}{item.reason ? ` - ${item.reason}` : ''}</Text>
+        </View>
+        <View>
+          <Text style={styles.contactName}>{formatMoney(item.amount)}</Text>
+        </View>
+      </TouchableOpacity>
+  );}
   return (
     <View style={styles.container}>
       <View>
@@ -89,8 +116,8 @@ export function Home() {
           keyboardType='numeric'
           placeholder='Receipient'
           onChangeText={(phone)=> setReceipient(prev => ({...prev, phone}))}
-          onSubmitEditing={() => amountRef.current.focus()}
-          value={receipient.phone}
+          onSubmitEditing={() => amountRef.current!.focus()}
+          value={receipient!.phone}
           maxLength={10}
           />
       </View>
@@ -104,12 +131,27 @@ export function Home() {
           placeholder='Amount'
           onChangeText={(amount)=> setReceipient(prev => ({...prev, amount}))}
           onSubmitEditing={handleCheckBalance}
-          value={receipient.amount}
+          value={receipient!.amount}
         />
       </View>
       <TouchableOpacity style={styles.button} onPress={handleCheckBalance}>
         <Text style={styles.buttonText}>Send Cash</Text>
       </TouchableOpacity>
+      <View style={{}}>
+        <View style={{flexDirection: 'row', justifyContent: 'space-between', width: '99%', marginVertical: 10, marginTop: 40}}>
+          <Text style={{fontWeight: 'bold'}}>Recent Transactions</Text>
+          <TouchableOpacity onPress={() => router.navigate('Settings')}>
+            <Text>See All</Text>
+          </TouchableOpacity>
+        </View>
+
+        <FlatList
+          data={recentTrx}
+          keyExtractor={(item, i) => item.date + i}
+          renderItem={renderItem}
+          maxToRenderPerBatch={15} 
+        />
+      </View>
     </View>
   );
 }
@@ -119,6 +161,15 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
     gap: 10,
+  },
+  contact: {
+    padding: 10,
+    flexDirection: 'row',
+    gap: 10,
+    alignItems: 'center'
+  },
+  contactName: {
+    fontWeight: 'bold',
   },
   input: {
     width: '100%',

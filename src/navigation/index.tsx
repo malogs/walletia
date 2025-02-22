@@ -74,12 +74,7 @@ const RootStack = createNativeStackNavigator({
     },
     Profile: {
       screen: Profile,
-      options: ({navigation}) => ({
-        headerRight: () => (
-          <HeaderButton onPress={navigation.goBack}>
-            <Text>Close</Text>
-          </HeaderButton>
-        ),
+      options: () => ({
         title: 'Contacts',
       })
     },

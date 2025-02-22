@@ -47,7 +47,7 @@ const groupTransactionsByDate = (transactions: ITransaction[]): {
     })
     .map((title) => ({
       title,
-      data: grouped[title].sort((a, b) => moment(b.date).diff(moment(a.date))),
+      data: grouped[title].map(a => ({...a, group: title})).sort((a, b) => moment(b.date).diff(moment(a.date))),
     }));
 
   return sortedSections;
@@ -61,13 +61,13 @@ const TransactionList = ({ sections }: {
   }) => (
   <SectionList
     sections={sections}
-    keyExtractor={(item) => item.receipient.name + item.date}
+    keyExtractor={(item, i) => item.receipient.name + item.date + i}
     renderItem={({ item }) => (
       <TouchableOpacity style={styles.contact}>
         <Image source={{uri: `https://ui-avatars.com/api/?size=30&uppercase=false&name=${(item.receipient.name ? item.receipient.name: 'unkown').replaceAll(' ', '+')}`, width: 30, height: 30}} />
         <View style={{flex: 1}}>
           <Text>{item.receipient.name !== 'unkown' ? item.receipient.name: (item.receipient.phone.length > 0? item.receipient.phone : 'unkown')}</Text>
-          <Text style={{color: 'gray'}}>{moment(item.date).format('HH:mm')}{item.reason ? ` - ${item.reason}` : ''}</Text>
+          <Text style={{color: 'gray'}}>{moment(item.date).format(item.group !== 'Last 7 Days' ? 'HH:mm': 'ddd, MMM Do HH:mm')}{item.reason ? ` - ${item.reason}` : ''}</Text>
         </View>
         <View>
           <Text style={styles.contactName}>{formatMoney(item.amount)}</Text>

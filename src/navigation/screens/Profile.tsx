@@ -29,9 +29,16 @@ export function Profile() {
         fields: [Contacts.Fields.PhoneNumbers],
       });
       
+      
       if (data.length > 0) {
-        setContacts(data.map(ct => ({name: ct.name, phone: ct.phoneNumbers[0].number})));
-        setFilteredContacts(data.map(ct => ({name: ct.name, phone: ct.phoneNumbers[0].number})));
+        const cts: IContact[] = data
+          .filter(ct=>ct.phoneNumbers && ct.phoneNumbers[0] && (ct.phoneNumbers[0].number.replace(/.*?(07.*)/, '$1').startsWith('078') || ct.phoneNumbers[0].number.replace(/.*?(07.*)/, '$1').startsWith('079')))
+          .map(ct => ({
+            name: ct.name, 
+            phone: ct.phoneNumbers && ct.phoneNumbers[0]?.number?.replaceAll('-', '').replaceAll(' ', '').replace(/.*?(07.*)/, '$1')
+          }));
+        setContacts(cts);
+        setFilteredContacts(cts);
       }
     };
 
@@ -51,7 +58,8 @@ export function Profile() {
     ))
   }
 
-  const renderItem = ({ item }) => (
+  const renderItem = ({ item }: {item: IContact}) => {
+    return(
     <TouchableOpacity style={styles.contact} onPress={() => handleSendTo(item)}>
       <Image source={{uri: `https://ui-avatars.com/api/?size=50&background=random&uppercase=false&name=${item.name.replaceAll(' ', '+')}`, width: 50, height: 50}} />
       <View>
@@ -59,7 +67,7 @@ export function Profile() {
         <Text>{item.phone}</Text>
       </View>
     </TouchableOpacity>
-  );
+  );}
 
   return (
     <Fragment>
@@ -68,8 +76,9 @@ export function Profile() {
       </View>
       <FlatList
         data={filteredContacts}
-        keyExtractor={(item) => item.name}
+        keyExtractor={(item, i) => item.name + i}
         renderItem={renderItem}
+        maxToRenderPerBatch={15} 
       />
     </Fragment>
   );

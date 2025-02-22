@@ -19,6 +19,11 @@ declare module "next-pwa" {
   export default function withPWA(config: NextConfig): NextConfig;
 }
 
+declare module "react-native-immediate-phone-call" {
+  import { immediatePhoneCall } from "react-native-immediate-phone-call";
+  export default { immediatePhoneCall } ;
+}
+
 interface IContact {
   name: string;
   phone: string;
@@ -32,5 +37,6 @@ interface ITransaction {
   receipient: IContact;
   charges: number;
   amount: number;
+  group?: string;
   time?: string;
 }

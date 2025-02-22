@@ -10,7 +10,7 @@ export function Reasons() {
   const {handleSaveTrx, reason, setReason} = useGlobalContext();
   const [filteredContacts, setFilteredContacts] = useState<{name:string,selected:boolean}[]>([]);
 
-  const save = () => {handleSaveTrx(); navigation.navigate('Thanks');}
+  const save = () => {handleSaveTrx(); setReason(""); navigation.navigate('Thanks');}
 
   useLayoutEffect(() => {
     navigation.setOptions({
