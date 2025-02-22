@@ -42,8 +42,8 @@ export function Home() {
     if (!receipient) return;
     if (receipient.phone.length < 4) return Alert.alert("Invalid Phone or MomoPay Code");
     if (!receipient.amount || +receipient.amount < 90) return Alert.alert("Amount should atleast be 90Rwf");
-    // ImmediatePhoneCall
-    //   .immediatePhoneCall(`*182*${receipient.phone.length == 10 ? '1': '8'}*1*${receipient.phone}*${receipient.amount}#`);
+    ImmediatePhoneCall
+      .immediatePhoneCall(`*182*${receipient.phone.length == 10 ? '1': '8'}*1*${receipient.phone}*${receipient.amount}#`);
 
     const money = +receipient.amount;
     const charges = money <= 1000 ? 20 
