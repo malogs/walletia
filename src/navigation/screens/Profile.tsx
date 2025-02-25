@@ -32,11 +32,12 @@ export function Profile() {
       
       if (data.length > 0) {
         const cts: IContact[] = data
-          .filter(ct=>ct.phoneNumbers && ct.phoneNumbers[0] && (ct.phoneNumbers[0].number.replace(/.*?(07.*)/, '$1').startsWith('078') || ct.phoneNumbers[0].number.replace(/.*?(07.*)/, '$1').startsWith('079')))
+          .filter(ct => ct.phoneNumbers && ct.phoneNumbers[0] && (ct.phoneNumbers[0].number.replace(/.*?(07.*)/, '$1').startsWith('078') || ct.phoneNumbers[0].number.replace(/.*?(07.*)/, '$1').startsWith('079')))
           .map(ct => ({
             name: ct.name, 
             phone: ct.phoneNumbers && ct.phoneNumbers[0]?.number?.replaceAll('-', '').replaceAll(' ', '').replace(/.*?(07.*)/, '$1')
           }));
+          
         setContacts(cts);
         setFilteredContacts(cts);
       }

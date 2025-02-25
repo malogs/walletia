@@ -10,11 +10,24 @@
     "scheme": "walletia",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.walletia"
+      "bundleIdentifier": "com.walletia",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "tel",
+          "telprompt",
+          "tel",
+          "telprompt"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "bundler": "metro",
       "package": "com.walletia",
+      "permissions": [
+        "CALL_PHONE",
+        "READ_CONTACTS"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"

@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { Text } from '@react-navigation/elements';
+import call from 'react-native-phone-call';
 import { useNavigation } from '@react-navigation/native';
 import ImmediatePhoneCall from 'react-native-immediate-phone-call';
 import localStorage from '@react-native-async-storage/async-storage';
-import { TouchableOpacity, StyleSheet, View, TextInput, Alert, Platform, PermissionsAndroid, FlatList, Image } from 'react-native';
+import { TouchableOpacity, StyleSheet, View, TextInput, Alert, Platform, PermissionsAndroid, FlatList, Image, Linking } from 'react-native';
 import { useGlobalContext } from '../../store/global';
 import moment from 'moment';
 import { formatMoney } from './Settings';
@@ -49,17 +50,19 @@ export function Home() {
     if (!receipient) return;
     if (receipient.phone.length < 4) return Alert.alert("Invalid Phone or MomoPay Code");
     if (!receipient.amount || +receipient.amount < 90) return Alert.alert("Amount should atleast be 90Rwf");
-    const ussd = `*182*${receipient.phone.length == 10 ? '1': '8'}*1*${receipient.phone}*${receipient.amount}#`;
+    const isCode = !(receipient.phone.length == 10);
+    const ussd = `*182*${isCode? '1': '8'}*1*${receipient.phone}*${receipient.amount}#`;
     try {
-      console.log("==========", ImmediatePhoneCall);
-      ImmediatePhoneCall.immediatePhoneCall(ussd);
+      console.log("========", ussd, ImmediatePhoneCall);
+      if (Platform.OS === 'android') ImmediatePhoneCall.immediatePhoneCall(ussd);
+      else await call({number: ussd.replaceAll('*', '%2A').replaceAll('#', '%23'), prompt: true});
     } catch (error) {
-      console.log(error);
+      console.log("Error making a call",error);
       return;
     }
 
     const money = +receipient.amount;
-    const charges = money <= 1000 ? 20 
+    const charges = isCode ? 0 : money <= 1000 ? 20 
       : money <= 5000? 100 
       : money <= 15000? 200 
       : money <= 30000? 300 
@@ -137,7 +140,8 @@ export function Home() {
       <TouchableOpacity style={styles.button} onPress={handleCheckBalance}>
         <Text style={styles.buttonText}>Send Cash</Text>
       </TouchableOpacity>
-      <View style={{}}>
+
+      {recentTrx.length > 0 && <View style={{}}>
         <View style={{flexDirection: 'row', justifyContent: 'space-between', width: '99%', marginVertical: 10, marginTop: 40}}>
           <Text style={{fontWeight: 'bold'}}>Recent Transactions</Text>
           <TouchableOpacity onPress={() => router.navigate('Settings')}>
@@ -151,7 +155,7 @@ export function Home() {
           renderItem={renderItem}
           maxToRenderPerBatch={15} 
         />
-      </View>
+      </View>}
     </View>
   );
 }
